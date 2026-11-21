@@ -1,0 +1,98 @@
+{
+  "case": "tiny",
+  "algorithm": "hybrid",
+  "seed": 1,
+  "status": "PASS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 0,
+  "algorithm_whole_seconds": 3.5831449160177726,
+  "cpu_seconds": 3.9200650000000006,
+  "metrics": {
+    "algorithm": "fee_capacity_cover_full_S_transport",
+    "threads": 2,
+    "seed": 1,
+    "certificate_scope": "full_original_feasibility_only",
+    "native_optimization_scope": "arc_pool_subproblem",
+    "native_result_available": true,
+    "first_incumbent_seconds": 0.06580916600069031,
+    "solver_version": "1.15.1",
+    "all_source_arcs": 10000,
+    "pool_arcs": 1600,
+    "model_rows": 1801,
+    "model_columns": 1700,
+    "model_nnz": 6600,
+    "build_seconds": 0.09518578500137664,
+    "warm_objective": 8595.248628027963,
+    "pool_phase_deadline_seconds": 20.0,
+    "pool_model_status": "HighsModelStatus.kOptimal",
+    "run_status": "HighsStatus.kOk",
+    "independent": {
+      "pass": true,
+      "objective": 6153.2579322065485,
+      "open_count": 34,
+      "arcs": 143,
+      "max_demand_error": 5.240252676230739e-13,
+      "max_capacity_excess": 9.629788439208643e-12,
+      "max_bound_excess": 5.240252676230739e-13
+    },
+    "pool_stage_seconds": 3.5293792800221127,
+    "polish": {
+      "scope": "all_arcs_to_fixed_S",
+      "fixed_open_count": 34,
+      "prior_objective": 6153.2579322065485,
+      "native_result_available": true,
+      "all_source_arcs": 10000,
+      "fixed_s_arcs": 3400,
+      "zero_demand_customers": 0,
+      "model_rows": 134,
+      "model_columns": 3400,
+      "model_nnz": 6800,
+      "solver_version": "1.15.1",
+      "warm_objective": 6153.257932206543,
+      "build_seconds": 0.0013195700012147427,
+      "fixed_s_model_status": "HighsModelStatus.kOptimal",
+      "run_status": "HighsStatus.kOk",
+      "elapsed_seconds": 0.0023748100211378187,
+      "independent": {
+        "pass": true,
+        "objective": 6153.25793220654,
+        "open_count": 34,
+        "arcs": 131,
+        "max_demand_error": 0.0,
+        "max_capacity_excess": 0.0,
+        "max_bound_excess": 0.0
+      },
+      "termination": "RETURNED_VERIFIED_FIXED_S",
+      "fixed_s_objective": 6153.25793220654,
+      "native_fixed_s_objective": 6153.25793220654,
+      "improvement": 8.185452315956354e-12,
+      "facilities_unchanged": true
+    },
+    "capacity_cover": {
+      "termination": "S_ALREADY_FEE_CAPACITY_COVER"
+    },
+    "peak_rss_kib": 87532,
+    "termination": "RETURNED_VERIFIED_BEST"
+  },
+  "method_status": "Feasible",
+  "independent": {
+    "pass": true,
+    "objective": 6153.2579322065485,
+    "open_count": 34,
+    "arcs": 143,
+    "max_demand_error": 5.240252676230739e-13,
+    "max_capacity_excess": 9.629788439208643e-12,
+    "max_bound_excess": 5.240252676230739e-13
+  },
+  "official": {
+    "feasible": true,
+    "violated_constraints": [],
+    "violations": [],
+    "violation_magnitudes": []
+  },
+  "whole_with_checkers_seconds": 3.5892162960080896
+}

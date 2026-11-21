@@ -1,8 +1,8 @@
 [
   {
     "path": "solve.py",
-    "benchmark_source_name": "pool.py",
-    "sha256": "fa95aa6584a7a18e16b056fc9f989fbd1cd4ad6b580a7e2ec7fdc32a861799af",
+    "benchmark_source_name": "hybrid.py (budgeted-cover)",
+    "sha256": "92ca1a69f323efcab11ad935196b4cd70330c6481d68904f493c5673e0dd6526",
     "same_benchmark_bytes": true
   },
   {
@@ -65,9 +65,11 @@
   },
   {
     "path": "replay.py",
-    "sha256": "e40f991da5bcc4572eb2825265866ee85b4c222c39c8160d757d639c0eb94b42",
+    "sha256": "025b35d3e76e26f3f1e6b492750b426020bdf980c35d04ef1d8c8e560d6b28b6",
     "benchmark_source_name": "controller.py",
-    "changes": "public relative paths, entry names, recorded source-hash validation; algorithm modules unchanged"
+    "changes": "public relative paths, entry names, recorded source-hash validation; algorithm modules unchanged",
+    "same_benchmark_bytes": false,
+    "public_change": "portable paths, input-hash validation, additional preserved pool/terminal dispatch"
   },
   {
     "path": "feasibility_check.py",
@@ -92,5 +94,23 @@
     "sha256": "32389d1995d6af536d215d613f6f6c469a2027b7d618c78b4fd1acfcd36d30c8",
     "upstream_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/gurobi_code.py",
     "unchanged_upstream_bytes": true
+  },
+  {
+    "path": "polish.py",
+    "benchmark_source_name": "polish.py (budgeted-cover)",
+    "sha256": "ef9ac6b85930af48d8b719961e2960f29d174dc57db11774eafeca69a0463567",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/arc-pool-baseline/solve.py",
+    "benchmark_source_name": "pool.py",
+    "sha256": "fa95aa6584a7a18e16b056fc9f989fbd1cd4ad6b580a7e2ec7fdc32a861799af",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/terminal-pass/solve.py",
+    "benchmark_source_name": "hybrid.py (terminal-six)",
+    "sha256": "1a7f1d6d56462c8b0ef7744d82cdacdb312bec2b39780aff9f4cd31fb0f802b4",
+    "same_benchmark_bytes": true
   }
 ]

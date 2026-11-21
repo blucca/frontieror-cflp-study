@@ -68,11 +68,13 @@ def run_one(case, algorithm, seed, out):
     instance = ROOT / "input" / CASES[case][0]
     out.mkdir(parents=True, exist_ok=False)
     solution = out / "solution.json"
-    entry = {"transport": "transport.py", "solve": "solve.py"}.get(algorithm, "baseline.py")
+    entry = {"transport": "transport.py", "solve": "solve.py",
+             "pool": "versions/arc-pool-baseline/solve.py",
+             "terminal": "versions/terminal-pass/solve.py"}.get(algorithm, "baseline.py")
     command = [sys.executable, "-B", str(ROOT / entry),
                "--instance_path", str(instance), "--solution_path", str(solution),
                "--time_limit", "55", "--seed", str(seed)]
-    if algorithm not in ("transport", "solve"):
+    if algorithm not in ("transport", "solve", "pool", "terminal"):
         command += ["--solver", "highs" if algorithm == "highs-off" else algorithm]
         if algorithm == "highs-off":
             command += ["--no_presolve"]
@@ -131,7 +133,7 @@ def main():
     p.add_argument("--seed", type=int, default=1)
     a = p.parse_args()
     cases, algorithms = a.cases.split(","), a.algorithms.split(",")
-    assert all(x in CASES for x in cases) and all(x in ("highs", "highs-vub", "highs-off", "scip", "transport", "solve") for x in algorithms)
+    assert all(x in CASES for x in cases) and all(x in ("highs", "highs-vub", "highs-off", "scip", "transport", "solve", "pool", "terminal") for x in algorithms)
     source(cases)
     if a.source_only:
         return
@@ -145,7 +147,7 @@ def main():
             r = run_one(case, algorithm, a.seed, out / f"{case}-{algorithm}-s{a.seed}")
             state["results"].append(r)
             dump(out / "state.json", state)
-            if r["status"] == "FAIL" or algorithm in ("transport", "solve") and r["status"] != "PASS":
+            if r["status"] == "FAIL" or algorithm in ("transport", "solve", "pool", "terminal") and r["status"] != "PASS":
                 state["status"] = "STOP_VALIDATION_FAILURE"
                 dump(out / "state.json", state)
                 return

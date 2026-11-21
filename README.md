@@ -1,9 +1,11 @@
-# FrontierOR CFLP: capacity, then facility choices
+# FrontierOR CFLP: route freely, then close the costly sites
 
 A runnable, cold-input study of splittable capacitated facility location. The
-selected heuristic emits a fully checked solution for all six pinned benchmark
-cases under the recorded 2-CPU / 4-GiB-address-space / whole-60-second envelope.
-The observed costs and failures below are the result, including weak cases.
+fast path emits a fully checked solution for all six pinned benchmark cases
+under the recorded 2-CPU / 4-GiB-address-space / whole-60-second envelope.
+Full-arc transportation and a fee/capacity cover repair the two largest facility
+cost failures. The original longer pool wins on two other cases; both paths and
+all weak results are available below.
 
 ## Install and solve
 
@@ -38,7 +40,10 @@ facilities retain the same opening semantics as the shared validator.
 python replay.py --source_only
 # Creates results/run-001/{case}-{algorithm}-s1/ with JSON and algorithm logs.
 python replay.py --batch run-001 --algorithms solve,highs,scip
-# Optional preserved full-transport comparison:
+# Preserved longer-pool quality/time trade-off:
+python replay.py --batch pool-001 --algorithms pool
+# Optional terminal-supported variant and earlier slope-transport method:
+python replay.py --batch terminal-001 --algorithms terminal
 python replay.py --batch transport-001 --algorithms transport
 ```
 
@@ -58,22 +63,37 @@ wheels have a libhighs symbol conflict when combined. [Environment](results/envi
 
 ## Selected mechanism
 
-`solve.py` is a fixed **K=16** arc-pool MIP. Each customer selects the 16 lowest
-input-derived unit-shipping-plus-capacity-rent scores (or all sites when M<16).
-Its own cold full-graph regret greedy supplies a feasible starting witness; every
-positive greedy fraction is added to the pool, including zero-demand rows.
-All N demand rows, all M capacity rows, all M binary facility variables, every
-pool-arc VUB, the aggregate constraint, and original costs remain represented.
-Every other original arc is implicitly zero. The shared validator certifies the
-emitted witness against the complete original instance.
+`solve.py` uses three bounded steps, all derived from its supplied input:
 
-The sparse MIP performs coupled facility-set changes. Its native `kOptimal`
-status certifies **only that selected arc subproblem**. Whole-solution status is
-always `Feasible`, and candidate output carries no global bound or gap. Both arc
-selection and initialization use only the supplied input, without reference or
-baseline witnesses. If native `startSolve()/wait()` is still pending at deadline,
-only an earlier completed and independently verified snapshot is written; live
-native solution state is left unread and the process exits immediately.
+1. **Cold feasible transport, then a coupled arc-pool MIP.** K=16 unit-shipping +
+   capacity-rent neighbors per customer, plus every positive fraction of its own
+   complete-graph regret greedy. All facilities, original costs, capacity rows,
+   demand rows, pool VUBs and aggregate capacity remain. The pool phase ends at
+   20 seconds of the same whole entry budget.
+2. **Full transportation over the selected facilities S.** `polish.py` keeps
+   every positive-demand customer-to-S arc: q=d*x, cost c/d, p+|S| rows and
+   2p|S| nonzeros. Closed sites are exactly eliminated. All S fixed fees remain;
+   zero-demand customers choose their least original c within S.
+3. **One fee/capacity cover and full recourse.** Within S, retain all negative
+   fixed-fee sites; order remaining sites by f/s, breaking equal ratios by the
+   actual transported load, and select enough floating capacity for all demand.
+   On equal positive capacities this minimizes the cover's fixed fee within S; general
+   capacities use a greedy heuristic. Re-route the complete graph on this subset,
+   immediately verify its feasible witness, then optimize all its transport arcs
+   using remaining whole time. Keep the lowest original-cost verified witness.
+
+The output includes all customer fractions and their binary open-site set.
+Native pool `kOptimal` concerns the selected arc subproblem; transportation LP
+`kOptimal` concerns its fixed S. The full CFLP output is always **Feasible**, with
+no global bound/gap exported. Initialization and all refinements use the supplied
+instance; reference witnesses are outside their data flow. A pending native
+`startSolve()/wait()` writes the previously completed, independently verified best
+and exits immediately, leaving live native solution state unread.
+
+The 20-second pool allocation leaves time for full recourse instead of using all
+53 internal seconds on sparse MIP. It is a measured quality/time trade-off, not
+an adaptive parameter search. The original 53-second pool is retained in
+`versions/arc-pool-baseline/solve.py` and replay's `pool` mode.
 
 ## All six selected results
 
@@ -81,7 +101,25 @@ One cold run per case, seed 1. The greedy column is original-cost initialization
 and time to first independently verified witness. The last column is objective
 excess over the old Gurobi incumbent, not a certified MIP gap.
 
-| Case / receipt | Greedy cost / first s | Selected cost | Open | Whole s | Peak RSS MiB | Full checks | Excess over reference |
+| Case / receipt | Greedy cost / first s | Final cost | Open | Whole s | Peak RSS MiB | Full checks | Excess over reference |
+|---|---:|---:|---:|---:|---:|---|---:|
+| [tiny](results/cover/tiny-hybrid-s1/result.json) | 8595.24863 / 0.066 | 6153.25793 | 34 | 3.583 | 85.5 | PASS | +0.00% |
+| [large1](results/cover/large1-hybrid-s1/result.json) | 61771.41869 / 0.301 | 41609.61054 | 250 | 24.074 | 388.3 | PASS | +3.74% |
+| [large2](results/cover/large2-hybrid-s1/result.json) | 28490.18721 / 0.285 | 22149.38992 | 339 | 24.684 | 406.0 | PASS | +4.70% |
+| [large3](results/cover/large3-hybrid-s1/result.json) | 165636.84792 / 0.294 | 151943.14944 | 250 | 12.768 | 408.0 | PASS | +0.22% |
+| [large4](results/cover/large4-hybrid-s1/result.json) | 121278.69121 / 0.290 | 84489.46641 | 250 | 22.006 | 408.7 | PASS | +6.22% |
+| [large5](results/cover/large5-hybrid-s1/result.json) | 320938.60984 / 0.300 | 200612.77666 | 250 | 18.550 | 403.8 | PASS | +0.79% |
+
+**Observed trade-off:** the selected path restores large3/large5 to about
++0.22%/+0.79% of the upstream reference incumbents, and improves large4's original
+pool cost. On large1/large2 it costs +3.63%/+4.69% more than the original pool,
+while taking about 24 seconds instead of 53 seconds. Every case and both costs
+remain in the study; apply the complete replay to your own model before choosing
+its quality/time budget.
+
+### Preserved original 53-second arc pool
+
+| Case / receipt | Greedy cost / first s | Original pool cost | Open | Whole s | Peak RSS MiB | Full checks | Excess over reference |
 |---|---:|---:|---:|---:|---:|---|---:|
 | [tiny](results/latest/tiny-solve-s1/result.json) | 8595.24863 / 0.185 | 6153.25793 | 34 | 3.885 | 89.1 | PASS | +0.00% |
 | [large1](results/latest/large1-solve-s1/result.json) | 61771.41869 / 0.402 | 40150.95332 | 250 | 53.013 | 556.4 | PASS | +0.10% |
@@ -90,12 +128,43 @@ excess over the old Gurobi incumbent, not a certified MIP gap.
 | [large4](results/latest/large4-solve-s1/result.json) | 121278.69121 / 0.416 | 85458.43883 | 309 | 53.046 | 399.8 | PASS | +7.44% |
 | [large5](results/latest/large5-solve-s1/result.json) | 320938.60984 / 0.395 | 312314.60313 | 322 | 6.705 | 343.0 | PASS | +56.90% |
 
-**Quality limit:** large3 and large5 returned pool-optimal solutions quickly, yet
-are +7.48% and +56.90% above the old full-model reference objectives. Fixed arc
-restriction is a real quality failure on these cases. Those results remain in
-the default six-case table. Large4 is also +7.44% above the reference. The large1
-and large2 objectives are close to the reference incumbents; runtime/hardware
-regimes differ. All six selected outputs passed both complete witness checks.
+The original pool returned quickly on large3/large5 but left +7.48%/+56.90%
+reference excess. Their fixed-fee excess explains 78.72%/95.35% of the original
+cost difference: rent-adjusted K16 plus cold sparse support kept costly capacity
+fragmented. Full-S transport unlocks re-routing; closing the unnecessary sites
+then captures most of the improvement.
+
+### Mechanism probes and terminal-pool variant
+
+The first cold full-S probe retained 263/322 open sites and cost
+160413.31037/305968.38056 on large3/large5 (9.95/15.08 seconds). Its fixed-S LPs
+returned Optimal. The next capacity cover selected 250 sites in both cases,
+with fixed fees 149040/188000, and complete cold costs
+151943.14944/200612.77666 (13.54/19.26 seconds). These probes used the original
+pool deadline; their complete records are in
+[fixed-S gate](results/archive/fixed-S-gate/) and
+[cover gate](results/archive/cover-gate/).
+
+A final experimental pass expands the same K16 pool with the current full-arc
+best support while retaining every original cold-greedy arc, and spends only the
+remaining whole budget on a coupled MIP. It preserves the current feasible best
+when native solve remains pending. Its complete six-case outcomes are retained
+in [terminal-six](results/archive/terminal-six/) and summary JSON; the selected
+fast entry remains the three-step version above.
+
+| Case | Terminal cost | Whole s | Actual final work |
+|---|---:|---:|---|
+| tiny | 6153.25793 | 3.381 | same optimal pool; skipped |
+| large1 | 41609.61054 | 53.067 | native pending; prior complete best kept |
+| large2 | 22149.38992 | 53.059 | native pending; prior complete best kept |
+| large3 | 151866.38634 | 18.277 | returned expanded-pool MIP |
+| large4 | 84489.46641 | 53.048 | native pending; prior complete best kept |
+| large5 | 200358.00993 | 21.838 | returned expanded-pool MIP |
+
+The fast entry is selected because the terminal pass retains the same quality
+on three pending cases while extending their whole time to 53 seconds. Its
+small returned improvements on large3/large5 are available as the separate
+`terminal` replay mode.
 
 ## Cold full-MIP controls
 
@@ -171,11 +240,13 @@ read only their input path; evaluation references are outside their data flow.
 ## Audit and licenses
 
 - [Machine-readable six-case summary](results/summary.json) and per-run raw JSON/logs.
-- [Raw/published artifact hashes](results/archive-manifest.json); infrastructure process
+- [Baseline raw/published artifact hashes](results/archive-manifest.json). New full-S,
+  cover and terminal records retain their complete witnesses; controller process
   IDs and private path strings are normalized in published copies.
 - [Frozen code / upstream hashes](source/code-manifest.json) and [input hashes](source/input-hashes.json).
-- `python common.py` runs the existing small float/split/zero-demand/cost/rejection
-  assert; recorded native synthetic and CSC checks are retained in results.
+- `python common.py` runs the existing float/split/zero-demand/cost/rejection assert.
+  `python check_polish.py` checks the new fixed-S and capacity-cover paths on one
+  synthetic fixture; recorded native and CSC checks are in results/validation.
 - Original code: [MIT](LICENSE). Upstream source and benchmark-derived artifacts:
   CC BY 4.0, [NOTICE](NOTICE.md). Pinned FrontierOR revision
   `ef42a2eac13595453f986d9df0b62e86e75ab596`, task `klose2005`.
@@ -183,3 +254,12 @@ read only their input path; evaluation references are outside their data flow.
 This is a self-contained implementation of mature mechanisms and a bounded
 benchmark study. Its public contribution is reproducible full feasibility,
 resource/quality evidence, and the retained failures.
+
+## Try it on a real task
+
+For splittable warehouse/factory supply planning, use the same input schema and
+save the complete decision witness. A useful next review is one practitioner's
+replay, with the returned result JSON, machine summary, and intended use (initial
+incumbent or standalone solution). Open an issue with authorized public or
+anonymized model material, the current formulation, runtime budget and acceptance
+criteria; any full engineering engagement is scoped to that actual task.

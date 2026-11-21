@@ -1,7 +1,7 @@
-"""CFLP heuristic: fixed K=16 arc pool plus its own cold greedy support.
+"""Cold CFLP: bounded arc pool, full-S transport, fee/capacity cover.
 
-All original constraints remain satisfied with unselected x implicitly zero.
-Native optimization/certification applies to this pool, never the global MIP.
+Pool MIP and each fixed-set LP have separate native optimization scopes.
+The final complete original witness is feasible; no global bound is exported.
 """
 import time
 START = time.monotonic()
@@ -72,7 +72,7 @@ def main():
     data = common.load(args.instance_path)
     best = common.greedy(data, penalty=1.0, seed=args.seed)
     common.verify(data, best)
-    metrics = {"algorithm": "fixed16_greedy_arc_pool_mip", "threads": 2, "seed": args.seed,
+    metrics = {"algorithm": "fee_capacity_cover_full_S_transport", "threads": 2, "seed": args.seed,
                "certificate_scope": "full_original_feasibility_only",
                "native_optimization_scope": "arc_pool_subproblem", "native_result_available": False,
                "first_incumbent_seconds": time.monotonic() - START}
@@ -112,14 +112,18 @@ def main():
         metrics.update(solver_version=h.version(), all_source_arcs=n * m, pool_arcs=arcs,
                        model_rows=len(lower), model_columns=nc, model_nnz=len(rows),
                        build_seconds=time.monotonic() - START, warm_objective=best["objective_value"])
-        budget = max(0.0, deadline - time.monotonic())
+        # The full-budget pool consumed all 53 seconds on L1/L2/L4, leaving
+        # no transport recourse. Reserve most of the same whole budget for it.
+        pool_deadline = min(deadline, START + 20.0)
+        metrics["pool_phase_deadline_seconds"] = pool_deadline - START
+        budget = max(0.0, pool_deadline - time.monotonic())
         if budget < 0.1:
             emit("BUILD_BUDGET_FALLBACK")
             return
         h.setOptionValue("time_limit", max(.001, budget - .1))
         h.startSolve()
         try:
-            done, run_status = h.wait(max(0.0, deadline - time.monotonic()))
+            done, run_status = h.wait(max(0.0, pool_deadline - time.monotonic()))
         except BaseException as error:
             metrics["wait_error"] = type(error).__name__
             emit("PENDING_WAIT_FALLBACK", pending=True)
@@ -145,6 +149,22 @@ def main():
             metrics["independent"] = common.verify(data, candidate)
             if candidate["objective_value"] < best["objective_value"] - 1e-7:
                 best = candidate
+        metrics["pool_stage_seconds"] = time.monotonic() - START
+        if deadline - time.monotonic() >= .5:
+            import polish
+            polish_metrics = metrics["polish"] = {}
+            h.clear()  # Completed pool only: release native model before full-S LP.
+            best = polish.refine(data, best, deadline, args.seed, polish_metrics, emit)
+            if deadline - time.monotonic() >= 1.0:
+                cover, cover_metrics = polish.capacity_cover(data, best, args.seed)
+                metrics["capacity_cover"] = cover_metrics
+                if cover["objective_value"] < best["objective_value"] - 1e-7:
+                    best = cover
+                if cover_metrics["termination"] == "RETURNED_VERIFIED_FEE_CAPACITY_COVER":
+                    cover_lp_metrics = metrics["cover_transport"] = {}
+                    candidate = polish.refine(data, cover, deadline, args.seed, cover_lp_metrics, emit)
+                    if candidate["objective_value"] < best["objective_value"] - 1e-7:
+                        best = candidate
         emit("RETURNED_VERIFIED_BEST")
     except Exception as error:
         metrics["fallback_error"] = type(error).__name__ + ": " + str(error)[:250]
