@@ -1,0 +1,15 @@
+{
+  "solver": "HiGHS",
+  "version": "1.15.1",
+  "model_rows": 2251,
+  "model_columns": 1125750,
+  "model_nnz": 2251500,
+  "all_arcs": 1125000,
+  "formulation": "compact_equivalent",
+  "build_seconds": 0.5372212179936469,
+  "native_result_available": false,
+  "presolve": "choose",
+  "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+  "whole_seconds": 55.00172306099557,
+  "peak_rss_kib": 1507520
+}

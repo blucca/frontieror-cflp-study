@@ -1,0 +1,10 @@
+{
+  "versions": {
+    "highspy": "1.15.1",
+    "ortools": "9.15.6755",
+    "numpy": "2.5.3"
+  },
+  "scip_available": true,
+  "scip_version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+  "loading": "isolated SCIP process; highspy not imported"
+}

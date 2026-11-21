@@ -1,0 +1,36 @@
+{
+  "python": "3.13.5",
+  "platform": "linux",
+  "inputs": [
+    {
+      "file": "large_instance_1.json",
+      "bytes": 17350517,
+      "sha256": "ffe1dac206046cc68e2f307cce2631655e49b695b72328cde2ae02aea7381020"
+    },
+    {
+      "file": "large_instance_2.json",
+      "bytes": 17570617,
+      "sha256": "f4657041dac5b37033fe5651bec41f56a69610f1d102d288a0687de980f099c9"
+    },
+    {
+      "file": "large_instance_3.json",
+      "bytes": 16571343,
+      "sha256": "70db76284dee72895ddc3fff307db6ec772b862775c2ca598a601db06ce96ef0"
+    },
+    {
+      "file": "large_instance_4.json",
+      "bytes": 17612283,
+      "sha256": "2b632eef0938468716382ca6e54ecb4b8ade4e57999ff49b6a51209844165e33"
+    },
+    {
+      "file": "large_instance_5.json",
+      "bytes": 17355457,
+      "sha256": "534dea190879d91ac429e0b36d69aa9934754af021bf8b632692a1e7837ee93b"
+    },
+    {
+      "file": "tiny_instance.json",
+      "bytes": 175678,
+      "sha256": "2002dc3c96c39b21bf80e2db91c1de641f259c7a7653fa3d5efa6b664495c12a"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "num_customers": 3,
+  "num_plants": 2,
+  "customers": {
+    "demands": [
+      2,
+      1,
+      0
+    ]
+  },
+  "plants": {
+    "capacities": [
+      1.5,
+      2.0
+    ],
+    "fixed_costs": [
+      1,
+      2
+    ]
+  },
+  "shipping_costs": [
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      9,
+      3
+    ]
+  ]
+}

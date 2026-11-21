@@ -1,0 +1,259 @@
+{
+  "status": "DONE",
+  "cases": [
+    "large1",
+    "large2",
+    "large3",
+    "large5"
+  ],
+  "algorithms": [
+    "highs",
+    "scip"
+  ],
+  "results": [
+    {
+      "case": "large1",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.07735232802224,
+      "cpu_seconds": 55.157033,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "model_nnz": 2251500,
+        "all_arcs": 1125000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 0.6106241839879658,
+        "native_result_available": false,
+        "presolve": "choose",
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.00155699197785,
+        "peak_rss_kib": 1507544
+      },
+      "whole_with_checkers_seconds": 55.07771892801975
+    },
+    {
+      "case": "large1",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 21.697950786008732,
+      "cpu_seconds": 21.58000399999997,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "threads": 1,
+        "status": 4,
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "all_arcs": 1125000,
+        "build_seconds": 3.8234183019958436,
+        "nodes": -1,
+        "native_result_available": true,
+        "bound": null,
+        "whole_seconds": 21.567279954993865,
+        "peak_rss_kib": 3852372
+      },
+      "whole_with_checkers_seconds": 21.698322126001585
+    },
+    {
+      "case": "large2",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.11099063500296,
+      "cpu_seconds": 55.14494699999999,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "model_nnz": 2251500,
+        "all_arcs": 1125000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 0.5580473269801587,
+        "native_result_available": false,
+        "presolve": "choose",
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.00216056199861,
+        "peak_rss_kib": 1507512
+      },
+      "whole_with_checkers_seconds": 55.11134915499133
+    },
+    {
+      "case": "large2",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 20.841381108009955,
+      "cpu_seconds": 20.907046000000026,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "threads": 1,
+        "status": 4,
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "all_arcs": 1125000,
+        "build_seconds": 3.349780660995748,
+        "nodes": -1,
+        "native_result_available": true,
+        "bound": null,
+        "whole_seconds": 20.72914024500642,
+        "peak_rss_kib": 3852464
+      },
+      "whole_with_checkers_seconds": 20.84174460801296
+    },
+    {
+      "case": "large3",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.102012385992566,
+      "cpu_seconds": 55.141354999999976,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "model_nnz": 2251500,
+        "all_arcs": 1125000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 0.5372212179936469,
+        "native_result_available": false,
+        "presolve": "choose",
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.00172306099557,
+        "peak_rss_kib": 1507520
+      },
+      "whole_with_checkers_seconds": 55.10237012599828
+    },
+    {
+      "case": "large3",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 20.993158188997768,
+      "cpu_seconds": 21.05037900000002,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "threads": 1,
+        "status": 4,
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "all_arcs": 1125000,
+        "build_seconds": 3.5634849880007096,
+        "nodes": -1,
+        "native_result_available": true,
+        "bound": null,
+        "whole_seconds": 20.876879026007373,
+        "peak_rss_kib": 3852448
+      },
+      "whole_with_checkers_seconds": 20.993525199010037
+    },
+    {
+      "case": "large5",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.0722156779957,
+      "cpu_seconds": 55.14373499999998,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "model_nnz": 2251500,
+        "all_arcs": 1125000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 0.5778917559946422,
+        "native_result_available": false,
+        "presolve": "choose",
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.00181110200356,
+        "peak_rss_kib": 1512032
+      },
+      "whole_with_checkers_seconds": 55.0725926879968
+    },
+    {
+      "case": "large5",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 21.251822553982493,
+      "cpu_seconds": 21.310550000000028,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "threads": 1,
+        "status": 4,
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "all_arcs": 1125000,
+        "build_seconds": 3.57115207699826,
+        "nodes": -1,
+        "native_result_available": true,
+        "bound": null,
+        "whole_seconds": 21.143609190010466,
+        "peak_rss_kib": 3852292
+      },
+      "whole_with_checkers_seconds": 21.25222283398034
+    }
+  ]
+}

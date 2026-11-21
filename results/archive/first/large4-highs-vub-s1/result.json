@@ -1,0 +1,29 @@
+{
+  "case": "large4",
+  "algorithm": "highs-vub",
+  "seed": 1,
+  "status": "NO_WHOLE_WITNESS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 2,
+  "algorithm_whole_seconds": 55.11079285500455,
+  "cpu_seconds": 55.096040000000016,
+  "metrics": {
+    "solver": "HiGHS",
+    "version": "1.15.1",
+    "model_rows": 1127251,
+    "model_columns": 1125750,
+    "model_nnz": 4501500,
+    "all_arcs": 1125000,
+    "formulation": "original_vub",
+    "build_seconds": 1.0469439580047037,
+    "native_result_available": false,
+    "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+    "whole_seconds": 55.004278521984816,
+    "peak_rss_kib": 2088412
+  },
+  "whole_with_checkers_seconds": 55.111204035027185
+}

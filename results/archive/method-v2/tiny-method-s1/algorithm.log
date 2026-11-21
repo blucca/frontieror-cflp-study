@@ -1,0 +1,120 @@
+{"event": "greedy", "wall": 0.17342420999193564, "objective": 8595.248628027963, "opened": 52}
+{"event": "built", "wall": 0.2001118990010582, "columns": 10000, "rows": 200}
+{"event": "native_returned", "wall": 0.21305532800033689, "phase": "slope_0", "elapsed": 0.012747758999466896, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.21937649699975736, "phase": "slope_1", "elapsed": 0.003826878994004801, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.22649238698068075, "phase": "slope_2", "elapsed": 0.0047642000135965645, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.22783283700118773, "objective": 8437.237529159858, "opened": 45}
+{"event": "native_returned", "wall": 0.2327023370016832, "phase": "original_cost_reflow", "elapsed": 0.004065949993673712, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2342511870083399, "objective": 8307.468008757076, "opened": 45}
+{"event": "incumbent", "wall": 0.23494087599101476, "objective": 7842.468008757076, "opened": 42}
+{"event": "native_returned", "wall": 0.2377387959859334, "phase": "facility_move", "elapsed": 0.001987569994525984, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.23914747600792907, "objective": 7683.63641391261, "opened": 41}
+{"event": "native_returned", "wall": 0.2421226860024035, "phase": "facility_move", "elapsed": 0.002235269988887012, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2435601659817621, "objective": 7505.822925129422, "opened": 40}
+{"event": "native_returned", "wall": 0.2464923659863416, "phase": "facility_move", "elapsed": 0.0022510699927806854, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.24773062599706464, "objective": 7326.996243408647, "opened": 39}
+{"event": "native_returned", "wall": 0.25015971600078046, "phase": "facility_move", "elapsed": 0.0018134400015696883, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2515512550016865, "objective": 7159.608303968647, "opened": 38}
+{"event": "native_returned", "wall": 0.2542878649837803, "phase": "facility_move", "elapsed": 0.002116479998221621, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.25557135499548167, "objective": 6983.838831715377, "opened": 37}
+{"event": "native_returned", "wall": 0.2583006249915343, "phase": "facility_move", "elapsed": 0.0021645700035151094, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.25956142498762347, "objective": 6812.350882415574, "opened": 36}
+{"event": "native_returned", "wall": 0.2622914249950554, "phase": "facility_move", "elapsed": 0.0021738699870184064, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.263611864997074, "objective": 6651.79807122565, "opened": 35}
+{"event": "native_returned", "wall": 0.2672098850016482, "phase": "facility_move", "elapsed": 0.003014029993209988, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2684871439996641, "objective": 6542.646589897424, "opened": 34}
+{"event": "native_returned", "wall": 0.2723478139960207, "phase": "facility_move", "elapsed": 0.0033181000035256147, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2736347339814529, "objective": 6509.892198335433, "opened": 34}
+{"event": "native_returned", "wall": 0.2773014339909423, "phase": "facility_move", "elapsed": 0.0030662099889013916, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2787157440034207, "objective": 6446.852316596467, "opened": 34}
+{"event": "native_returned", "wall": 0.2826573239872232, "phase": "facility_move", "elapsed": 0.003019380004843697, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.2888302530045621, "phase": "facility_move", "elapsed": 0.004194698994979262, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.2936221429845318, "phase": "facility_move", "elapsed": 0.0033194099960383028, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.30079474300146103, "phase": "facility_move", "elapsed": 0.0052016299741808325, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.30647398199653253, "phase": "facility_move", "elapsed": 0.004104869993170723, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.3111712620011531, "phase": "facility_move", "elapsed": 0.0033653900027275085, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.31580776200280525, "phase": "facility_move", "elapsed": 0.0032808300165925175, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.3170543219894171, "objective": 6425.570338664988, "opened": 34}
+{"event": "native_returned", "wall": 0.3202189309813548, "phase": "facility_move", "elapsed": 0.0025487790117040277, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.32436619099462405, "phase": "facility_move", "elapsed": 0.0028152299928478897, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.32916873099748045, "phase": "facility_move", "elapsed": 0.002816799998981878, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.33056579099502414, "objective": 6418.978883345088, "opened": 34}
+{"event": "native_returned", "wall": 0.3348809710005298, "phase": "facility_move", "elapsed": 0.003396020008949563, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.3362104400002863, "objective": 6401.629800626175, "opened": 34}
+{"event": "native_returned", "wall": 0.34102480998262763, "phase": "facility_move", "elapsed": 0.004213670006720349, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.34525379998376593, "phase": "facility_move", "elapsed": 0.0025850200036074966, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.3506582700065337, "phase": "facility_move", "elapsed": 0.0029929400188848376, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.3557436690025497, "phase": "facility_move", "elapsed": 0.0035980690154246986, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.36195557899191044, "phase": "facility_move", "elapsed": 0.004062749998411164, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.36643878900213167, "phase": "facility_move", "elapsed": 0.0031217500218190253, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.37160374800441787, "phase": "facility_move", "elapsed": 0.003513669013045728, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.37758002799819224, "phase": "facility_move", "elapsed": 0.004583650006679818, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.3789389980083797, "objective": 6391.396547065106, "opened": 34}
+{"event": "native_returned", "wall": 0.3834723180043511, "phase": "facility_move", "elapsed": 0.0038316700083669275, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.3879641669918783, "phase": "facility_move", "elapsed": 0.002653929026564583, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.3895139670057688, "objective": 6374.024199856996, "opened": 34}
+{"event": "native_returned", "wall": 0.3937510869873222, "phase": "facility_move", "elapsed": 0.003470069990726188, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.3985394070041366, "phase": "facility_move", "elapsed": 0.0027797000075224787, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.40321634599240497, "phase": "facility_move", "elapsed": 0.0030796389910392463, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4089572159864474, "phase": "facility_move", "elapsed": 0.004223419993650168, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4156157859833911, "phase": "facility_move", "elapsed": 0.004931479983497411, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4223530550079886, "phase": "facility_move", "elapsed": 0.004896669008303434, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4282392649911344, "phase": "facility_move", "elapsed": 0.003972400008933619, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.43413233500905335, "phase": "facility_move", "elapsed": 0.0041184799920301884, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.4356863249849994, "objective": 6372.674355402035, "opened": 34}
+{"event": "native_returned", "wall": 0.439574513991829, "phase": "facility_move", "elapsed": 0.0031536099850200117, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4435532339848578, "phase": "facility_move", "elapsed": 0.0024817500088829547, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4481855939957313, "phase": "facility_move", "elapsed": 0.003204000007826835, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.45253831398440525, "phase": "facility_move", "elapsed": 0.002946810011053458, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.453793502994813, "objective": 6371.305946752028, "opened": 34}
+{"event": "native_returned", "wall": 0.4579387029807549, "phase": "facility_move", "elapsed": 0.003509319998556748, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4619032529881224, "phase": "facility_move", "elapsed": 0.0026150400226470083, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.46676922298502177, "phase": "facility_move", "elapsed": 0.0033265299862250686, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4716058819903992, "phase": "facility_move", "elapsed": 0.003306078986497596, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.47739153198199347, "phase": "facility_move", "elapsed": 0.004120419995160773, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.4790599019906949, "objective": 6368.7535022696275, "opened": 34}
+{"event": "native_returned", "wall": 0.4841878319857642, "phase": "facility_move", "elapsed": 0.004355779994511977, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4885410610004328, "phase": "facility_move", "elapsed": 0.0025277690147049725, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.49290903098881245, "phase": "facility_move", "elapsed": 0.0025939500192180276, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.4976399709994439, "phase": "facility_move", "elapsed": 0.003156270016916096, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5037189599825069, "phase": "facility_move", "elapsed": 0.004489088983973488, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5053514800092671, "objective": 6354.11904732648, "opened": 34}
+{"event": "native_returned", "wall": 0.5102773300022818, "phase": "facility_move", "elapsed": 0.004133949987590313, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.51311477998388, "objective": 6322.584921093054, "opened": 34}
+{"event": "native_returned", "wall": 0.5173789999971632, "phase": "facility_move", "elapsed": 0.003530990012222901, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5186743199883495, "objective": 6265.084469910038, "opened": 34}
+{"event": "native_returned", "wall": 0.5232724389934447, "phase": "facility_move", "elapsed": 0.004047659022035077, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5274628489860334, "phase": "facility_move", "elapsed": 0.0028699199901893735, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5325809289934114, "phase": "facility_move", "elapsed": 0.003795419994276017, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5374558879993856, "phase": "facility_move", "elapsed": 0.0034628590219654143, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5387423679931089, "objective": 6259.949414231069, "opened": 34}
+{"event": "native_returned", "wall": 0.5436890980054159, "phase": "facility_move", "elapsed": 0.004287010000552982, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5450089279911481, "objective": 6252.353392967425, "opened": 34}
+{"event": "native_returned", "wall": 0.5498464480042458, "phase": "facility_move", "elapsed": 0.004216100001940504, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5547452970058657, "phase": "facility_move", "elapsed": 0.0028829389775637537, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5560655070003122, "objective": 6245.504855764111, "opened": 34}
+{"event": "native_returned", "wall": 0.560165976989083, "phase": "facility_move", "elapsed": 0.0034527799871284515, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5635021970083471, "phase": "facility_move", "elapsed": 0.0018376899824943393, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.564926706982078, "objective": 6239.093302286085, "opened": 34}
+{"event": "native_returned", "wall": 0.5691031070018653, "phase": "facility_move", "elapsed": 0.00349748000735417, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5707452860078774, "objective": 6233.092525684214, "opened": 34}
+{"event": "native_returned", "wall": 0.5744453560037073, "phase": "facility_move", "elapsed": 0.0030869499896652997, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5772104159987066, "phase": "facility_move", "elapsed": 0.0014796800096519291, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5807322159816977, "phase": "facility_move", "elapsed": 0.0022053300053812563, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5819389259850141, "objective": 6224.256624397338, "opened": 34}
+{"event": "native_returned", "wall": 0.5860830360034015, "phase": "facility_move", "elapsed": 0.0035666899930220097, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5896595850063022, "phase": "facility_move", "elapsed": 0.0022363299794960767, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.5908612549828831, "objective": 6188.628209262245, "opened": 34}
+{"event": "native_returned", "wall": 0.5945323049963918, "phase": "facility_move", "elapsed": 0.003073559986660257, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.5986723249952774, "phase": "facility_move", "elapsed": 0.0028840099985245615, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.602387644990813, "phase": "facility_move", "elapsed": 0.002485700009856373, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6074642239836976, "phase": "facility_move", "elapsed": 0.0038566089933738112, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6122501140052918, "phase": "facility_move", "elapsed": 0.0034766600001603365, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6167474940011743, "phase": "facility_move", "elapsed": 0.00298990000737831, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6221253229887225, "phase": "facility_move", "elapsed": 0.004030639014672488, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6273835029860493, "phase": "facility_move", "elapsed": 0.003928689984604716, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6312405829958152, "phase": "facility_move", "elapsed": 0.0025260800030082464, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6359708929958288, "phase": "facility_move", "elapsed": 0.003474810015177354, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6418569719826337, "phase": "facility_move", "elapsed": 0.004674849013099447, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.6480131619900931, "phase": "facility_move", "elapsed": 0.004862319998210296, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "finish", "wall": 0.6499672720092349, "reason": "VERIFIED_BEST", "objective": 6188.628209262245}

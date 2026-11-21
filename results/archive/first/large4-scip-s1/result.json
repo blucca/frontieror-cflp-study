@@ -1,0 +1,30 @@
+{
+  "case": "large4",
+  "algorithm": "scip",
+  "seed": 1,
+  "status": "NO_WHOLE_WITNESS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 2,
+  "algorithm_whole_seconds": 29.882281748985406,
+  "cpu_seconds": 29.550997999999964,
+  "metrics": {
+    "solver": "SCIP",
+    "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+    "formulation": "compact_equivalent",
+    "status": 4,
+    "model_rows": 2251,
+    "model_columns": 1125750,
+    "all_arcs": 1125000,
+    "build_seconds": 3.9839211229991633,
+    "nodes": -1,
+    "native_result_available": true,
+    "bound": null,
+    "whole_seconds": 29.742506868002238,
+    "peak_rss_kib": 3852416
+  },
+  "whole_with_checkers_seconds": 29.882689157995628
+}

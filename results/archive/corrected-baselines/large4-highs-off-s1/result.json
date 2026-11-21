@@ -1,0 +1,30 @@
+{
+  "case": "large4",
+  "algorithm": "highs-off",
+  "seed": 1,
+  "status": "NO_WHOLE_WITNESS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 2,
+  "algorithm_whole_seconds": 55.10142873501172,
+  "cpu_seconds": 57.462211,
+  "metrics": {
+    "solver": "HiGHS",
+    "version": "1.15.1",
+    "model_rows": 2251,
+    "model_columns": 1125750,
+    "model_nnz": 2251500,
+    "all_arcs": 1125000,
+    "formulation": "compact_equivalent",
+    "build_seconds": 0.5901540339982603,
+    "native_result_available": false,
+    "presolve": "off",
+    "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+    "whole_seconds": 55.001596651010914,
+    "peak_rss_kib": 2587860
+  },
+  "whole_with_checkers_seconds": 55.10181106501841
+}

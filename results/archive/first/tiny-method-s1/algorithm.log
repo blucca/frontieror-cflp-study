@@ -1,0 +1,18 @@
+{"event": "greedy", "wall": 0.1506149810156785, "objective": 8595.248628027963, "opened": 52}
+{"event": "built", "wall": 0.17413090000627562, "columns": 10000, "rows": 200}
+{"event": "native_returned", "wall": 0.18702131899772212, "phase": "slope_0", "elapsed": 0.012746319000143558, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.19331487899762578, "phase": "slope_1", "elapsed": 0.004085500026121736, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 0.19985488802194595, "phase": "slope_2", "elapsed": 0.004440988996066153, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.20112305801012553, "objective": 8437.237529159858, "opened": 45}
+{"event": "native_returned", "wall": 0.20531516801565886, "phase": "original_cost_reflow", "elapsed": 0.003498940001009032, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.20645648799836636, "objective": 8307.468008757076, "opened": 45}
+{"event": "incumbent", "wall": 0.20705633799661882, "objective": 7842.468008757076, "opened": 42}
+{"event": "native_returned", "wall": 0.21862623700872064, "phase": "facility_move", "elapsed": 0.0018670199788175523, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2197564770176541, "objective": 7683.63641391261, "opened": 41}
+{"event": "native_returned", "wall": 0.2223023170081433, "phase": "facility_move", "elapsed": 0.00197725000907667, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.22335393700632267, "objective": 7505.822925129422, "opened": 40}
+{"event": "native_returned", "wall": 0.22566065701539628, "phase": "facility_move", "elapsed": 0.0018279700016137213, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.2266464570129756, "objective": 7326.996243408647, "opened": 39}
+{"event": "native_returned", "wall": 0.2296132470073644, "phase": "facility_move", "elapsed": 0.002502310002455488, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 0.230717757018283, "objective": 7159.608303968647, "opened": 38}
+{"event": "finish", "wall": 0.23126217699609697, "reason": "VERIFIED_BEST", "objective": 7159.608303968647}

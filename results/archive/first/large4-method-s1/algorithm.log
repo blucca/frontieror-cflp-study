@@ -1,0 +1,19 @@
+{"event": "greedy", "wall": 0.39622042601695284, "objective": 121278.69121216354, "opened": 557}
+{"event": "built", "wall": 0.8009017519943882, "columns": 1125000, "rows": 2250}
+{"event": "native_returned", "wall": 3.190219870011788, "phase": "slope_0", "elapsed": 2.3890526479808614, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "native_returned", "wall": 4.937452165991999, "phase": "slope_1", "elapsed": 1.578492806002032, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 5.028150489990367, "objective": 102184.96288762029, "opened": 372}
+{"event": "native_returned", "wall": 7.2991287150071, "phase": "slope_2", "elapsed": 2.1973062489996664, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 7.378992570011178, "objective": 94050.19878247667, "opened": 323}
+{"event": "native_returned", "wall": 9.828934154007584, "phase": "original_cost_reflow", "elapsed": 2.3768966480274685, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 9.911411469016457, "objective": 91628.09956919157, "opened": 323}
+{"event": "incumbent", "wall": 9.946231206995435, "objective": 90566.09956919157, "opened": 316}
+{"event": "native_returned", "wall": 10.254431139008375, "phase": "facility_move", "elapsed": 0.302834772010101, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 10.338443713990273, "objective": 90430.85318462389, "opened": 316}
+{"event": "native_returned", "wall": 10.643912496016128, "phase": "facility_move", "elapsed": 0.30019340201397426, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 10.72684967101668, "objective": 90364.64996233096, "opened": 316}
+{"event": "native_returned", "wall": 11.072602480009664, "phase": "facility_move", "elapsed": 0.3407864800246898, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 11.164785505010514, "objective": 90228.41477546471, "opened": 316}
+{"event": "native_returned", "wall": 11.456370677013183, "phase": "facility_move", "elapsed": 0.28594604300451465, "status": "HighsModelStatus.kOptimal", "run_status": "HighsStatus.kOk"}
+{"event": "incumbent", "wall": 11.54681431199424, "objective": 90179.13678381973, "opened": 316}
+{"event": "finish", "wall": 11.553053290990647, "reason": "VERIFIED_BEST", "objective": 90179.13678381973}

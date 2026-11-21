@@ -1,0 +1,16 @@
+{
+  "solver": "SCIP",
+  "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+  "formulation": "compact_equivalent",
+  "threads": 1,
+  "status": 4,
+  "model_rows": 2251,
+  "model_columns": 1125750,
+  "all_arcs": 1125000,
+  "build_seconds": 3.349780660995748,
+  "nodes": -1,
+  "native_result_available": true,
+  "bound": null,
+  "whole_seconds": 20.72914024500642,
+  "peak_rss_kib": 3852464
+}

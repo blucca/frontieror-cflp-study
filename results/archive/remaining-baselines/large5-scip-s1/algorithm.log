@@ -1,0 +1,18 @@
+[/project/build_cp313-cp313/_deps/scip-src/src/blockmemshell/memory.c:1100] ERROR: Insufficient memory for allocation of 1048664 bytes.
+[/project/build_cp313-cp313/_deps/scip-src/src/scip/misc.c:7724] ERROR: Insufficient memory for new chunk.
+[misc.c:7724] ERROR: No memory in function call
+[misc.c:7752] ERROR: Error <-1> in function call
+[cons_components.c:1893] ERROR: Error <-1> in function call
+[cons_components.c:2011] ERROR: Error <-1> in function call
+[cons_components.c:2357] ERROR: Error <-1> in function call
+[cons.c:4180] ERROR: Error <-1> in function call
+[scip_solve.c:890] ERROR: Error <-1> in function call
+[scip_solve.c:1103] ERROR: Error <-1> in function call
+[scip_solve.c:1103] ERROR: Error <-1> in function call
+[scip_solve.c:1103] ERROR: Error <-1> in function call
+[scip_solve.c:1276] ERROR: Error <-1> in function call
+[scip_solve.c:2482] ERROR: Error <-1> in function call
+[scip_solve.c:2734] ERROR: Error <-1> in function call
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795293439.681458   88184 linear_solver.cc:1878] The model has been changed since the solution was last computed. MPSolverInterface::sync_status_ = 1
+E0000 00:00:1795293439.681523   88184 linear_solver.cc:1878] The model has been changed since the solution was last computed. MPSolverInterface::sync_status_ = 1

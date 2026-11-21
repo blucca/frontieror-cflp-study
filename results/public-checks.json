@@ -1,0 +1,9 @@
+{
+  "static_compile": "PASS",
+  "code_manifest": "PASS",
+  "six_actual_results": "6 PASS official and independent",
+  "candidate_global_status": "Feasible",
+  "common_assert": "PASS (recorded log; no native replay)",
+  "resource_contract": "2 CPU, 4 GiB RLIMIT_AS, 60 s whole / 55 s entry, RSS separate",
+  "algorithm_changes_on_publication": "None; module renaming preserves frozen bytes"
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "path": "solve.py",
+    "benchmark_source_name": "pool.py",
+    "sha256": "fa95aa6584a7a18e16b056fc9f989fbd1cd4ad6b580a7e2ec7fdc32a861799af",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "common.py",
+    "benchmark_source_name": "common.py",
+    "sha256": "7c4e6c35538b72cf5e83f312674bf94a062d1af196713d7d77795f67a5fb58dd",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "baseline.py",
+    "benchmark_source_name": "baseline.py",
+    "sha256": "9a6371b64d4da18a7bc349d6b8e45c55ef3ed13e08eb5f084c9de84c18e9556d",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "transport.py",
+    "benchmark_source_name": "method.py",
+    "sha256": "ff446a64207118e5490c3c33e25ff6f7e8211e1f221435934cc09b296b740c6e",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v1/baseline.py",
+    "sha256": "d742b34a60ab45f2edba0f71092ea57a2c566412136a9745c1ff12ae915ebdde",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v1/common.py",
+    "sha256": "dbc0c660e65f408ea58609adf9a6f693c33ae3221acf6f6ab664b246d5e621e3",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v1/controller.py",
+    "sha256": "b74bfd5da354e19ffc15215f2a070c70e68cef7ba819f9cd5a64751c9cc94115",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v1/method.py",
+    "sha256": "2b02a79b3a9b576a5749341391348303c4f91f497aa2fbc7395fd58703639680",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v2/baseline.py",
+    "sha256": "9a6371b64d4da18a7bc349d6b8e45c55ef3ed13e08eb5f084c9de84c18e9556d",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v2/common.py",
+    "sha256": "7c4e6c35538b72cf5e83f312674bf94a062d1af196713d7d77795f67a5fb58dd",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v2/controller.py",
+    "sha256": "5c183126d9aa2cc7eaceaefd4caf37915938edf63f3a6fe0c02125499ac512c4",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "versions/candidate-v2/method.py",
+    "sha256": "ff446a64207118e5490c3c33e25ff6f7e8211e1f221435934cc09b296b740c6e",
+    "same_benchmark_bytes": true
+  },
+  {
+    "path": "replay.py",
+    "sha256": "e40f991da5bcc4572eb2825265866ee85b4c222c39c8160d757d639c0eb94b42",
+    "benchmark_source_name": "controller.py",
+    "changes": "public relative paths, entry names, recorded source-hash validation; algorithm modules unchanged"
+  },
+  {
+    "path": "feasibility_check.py",
+    "sha256": "085dc2a492afef7923f7577505a7e089101df0bb958c035aff7f7a58b7108f09",
+    "upstream_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/feasibility_check.py",
+    "unchanged_upstream_bytes": true
+  },
+  {
+    "path": "source/instance_schema.json",
+    "sha256": "c950ba34eb5fc877c0b38cda665f83e0a0f3f93f3c093f02f32ad00ee1f8f5fe",
+    "upstream_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance_schema.json",
+    "unchanged_upstream_bytes": true
+  },
+  {
+    "path": "source/solution_schema.json",
+    "sha256": "6410f53ab5b84afa5b7017dd25962a5821d52b48fa953df39582f5c692967011",
+    "upstream_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/solution_schema.json",
+    "unchanged_upstream_bytes": true
+  },
+  {
+    "path": "source/gurobi_code.py",
+    "sha256": "32389d1995d6af536d215d613f6f6c469a2027b7d618c78b4fd1acfcd36d30c8",
+    "upstream_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/gurobi_code.py",
+    "unchanged_upstream_bytes": true
+  }
+]

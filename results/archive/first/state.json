@@ -1,0 +1,370 @@
+{
+  "status": "DONE",
+  "cases": [
+    "tiny",
+    "large4"
+  ],
+  "algorithms": [
+    "highs",
+    "highs-vub",
+    "scip",
+    "method"
+  ],
+  "results": [
+    {
+      "case": "tiny",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 5.188239890994737,
+      "cpu_seconds": 5.518788,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 201,
+        "model_columns": 10100,
+        "model_nnz": 20200,
+        "all_arcs": 10000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 0.17000645998632535,
+        "native_result_available": true,
+        "status": "HighsModelStatus.kOptimal",
+        "run_status": "HighsStatus.kOk",
+        "mip_gap": 9.969473513886722e-05,
+        "bound": 6152.644484786746,
+        "native_objective": 6153.2579322065385,
+        "nodes": 29,
+        "independent": {
+          "pass": true,
+          "objective": 6153.257932206541,
+          "open_count": 34,
+          "arcs": 132,
+          "max_demand_error": 2.4868995751603507e-14,
+          "max_capacity_excess": 9.947598300641403e-14,
+          "max_bound_excess": 1.4654943925052066e-14
+        },
+        "whole_seconds": 5.122150004986906,
+        "peak_rss_kib": 120088
+      },
+      "independent": {
+        "pass": true,
+        "objective": 6153.257932206541,
+        "open_count": 34,
+        "arcs": 132,
+        "max_demand_error": 2.4868995751603507e-14,
+        "max_capacity_excess": 9.947598300641403e-14,
+        "max_bound_excess": 1.4654943925052066e-14
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 5.1941632899979595
+    },
+    {
+      "case": "tiny",
+      "algorithm": "highs-vub",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 7.5967475670040585,
+      "cpu_seconds": 8.025230000000002,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 10201,
+        "model_columns": 10100,
+        "model_nnz": 40200,
+        "all_arcs": 10000,
+        "formulation": "original_vub",
+        "build_seconds": 0.17165696999290958,
+        "native_result_available": true,
+        "status": "HighsModelStatus.kOptimal",
+        "run_status": "HighsStatus.kOk",
+        "mip_gap": 9.473455064023936e-05,
+        "bound": 6152.675006081358,
+        "native_objective": 6153.257932206539,
+        "nodes": 33,
+        "independent": {
+          "pass": true,
+          "objective": 6153.257932206539,
+          "open_count": 34,
+          "arcs": 131,
+          "max_demand_error": 1.4876988529977098e-14,
+          "max_capacity_excess": 9.237055564881302e-14,
+          "max_bound_excess": 1.4876988529977098e-14
+        },
+        "whole_seconds": 7.509906171995681,
+        "peak_rss_kib": 161712
+      },
+      "independent": {
+        "pass": true,
+        "objective": 6153.257932206539,
+        "open_count": 34,
+        "arcs": 131,
+        "max_demand_error": 1.4876988529977098e-14,
+        "max_capacity_excess": 9.237055564881302e-14,
+        "max_bound_excess": 1.4876988529977098e-14
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 7.602898076991551
+    },
+    {
+      "case": "tiny",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 22.106996391987195,
+      "cpu_seconds": 35.784121999999996,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "status": 0,
+        "model_rows": 201,
+        "model_columns": 10100,
+        "all_arcs": 10000,
+        "build_seconds": 0.2532466650009155,
+        "nodes": 285,
+        "native_result_available": true,
+        "bound": 6153.25793220654,
+        "native_objective": 6153.25793220654,
+        "independent": {
+          "pass": true,
+          "objective": 6331.257932206541,
+          "open_count": 35,
+          "arcs": 140,
+          "max_demand_error": 5.284661597215745e-14,
+          "max_capacity_excess": 5.258016244624741e-13,
+          "max_bound_excess": 5.284661597215745e-14
+        },
+        "whole_seconds": 22.03577968600439,
+        "peak_rss_kib": 482324
+      },
+      "independent": {
+        "pass": true,
+        "objective": 6331.257932206541,
+        "open_count": 35,
+        "arcs": 140,
+        "max_demand_error": 5.284661597215745e-14,
+        "max_capacity_excess": 5.258016244624741e-13,
+        "max_bound_excess": 5.284661597215745e-14
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 22.113253852003254
+    },
+    {
+      "case": "tiny",
+      "algorithm": "method",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 0.3238166199880652,
+      "cpu_seconds": 0.3662610000000052,
+      "metrics": {
+        "algorithm": "full_q_slope_transport_exchange",
+        "seed": 1,
+        "threads": 1,
+        "model_scope": "full_original",
+        "native_runs": 8,
+        "accepted_moves": 4,
+        "first_incumbent_seconds": 0.1506092610070482,
+        "solver_version": "1.15.1",
+        "model_columns": 10000,
+        "model_rows": 200,
+        "model_nnz": 20000,
+        "build_seconds": 0.1741238200047519,
+        "native_result_available": true,
+        "last_model_status": "HighsModelStatus.kOptimal",
+        "peak_rss_kib": 56348
+      },
+      "method_status": "VERIFIED_BEST",
+      "independent": {
+        "pass": true,
+        "objective": 7159.608303968647,
+        "open_count": 38,
+        "arcs": 127,
+        "max_demand_error": 0.0,
+        "max_capacity_excess": 0.0,
+        "max_bound_excess": 0.0
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 0.3299218699976336
+    },
+    {
+      "case": "large4",
+      "algorithm": "highs",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.08593808699516,
+      "cpu_seconds": 55.07025799999999,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "model_nnz": 2251500,
+        "all_arcs": 1125000,
+        "formulation": "compact_equivalent",
+        "build_seconds": 1.217552166985115,
+        "native_result_available": false,
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.00221352200606,
+        "peak_rss_kib": 1511976
+      },
+      "whole_with_checkers_seconds": 55.086328506993596
+    },
+    {
+      "case": "large4",
+      "algorithm": "highs-vub",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 55.11079285500455,
+      "cpu_seconds": 55.096040000000016,
+      "metrics": {
+        "solver": "HiGHS",
+        "version": "1.15.1",
+        "model_rows": 1127251,
+        "model_columns": 1125750,
+        "model_nnz": 4501500,
+        "all_arcs": 1125000,
+        "formulation": "original_vub",
+        "build_seconds": 1.0469439580047037,
+        "native_result_available": false,
+        "status": "NATIVE_PENDING_NO_COLD_WITNESS",
+        "whole_seconds": 55.004278521984816,
+        "peak_rss_kib": 2088412
+      },
+      "whole_with_checkers_seconds": 55.111204035027185
+    },
+    {
+      "case": "large4",
+      "algorithm": "scip",
+      "seed": 1,
+      "status": "NO_WHOLE_WITNESS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 2,
+      "algorithm_whole_seconds": 29.882281748985406,
+      "cpu_seconds": 29.550997999999964,
+      "metrics": {
+        "solver": "SCIP",
+        "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+        "formulation": "compact_equivalent",
+        "status": 4,
+        "model_rows": 2251,
+        "model_columns": 1125750,
+        "all_arcs": 1125000,
+        "build_seconds": 3.9839211229991633,
+        "nodes": -1,
+        "native_result_available": true,
+        "bound": null,
+        "whole_seconds": 29.742506868002238,
+        "peak_rss_kib": 3852416
+      },
+      "whole_with_checkers_seconds": 29.882689157995628
+    },
+    {
+      "case": "large4",
+      "algorithm": "method",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 11.683529834001092,
+      "cpu_seconds": 11.641215000000035,
+      "metrics": {
+        "algorithm": "full_q_slope_transport_exchange",
+        "seed": 1,
+        "threads": 1,
+        "model_scope": "full_original",
+        "native_runs": 8,
+        "accepted_moves": 4,
+        "first_incumbent_seconds": 0.3962082859943621,
+        "solver_version": "1.15.1",
+        "model_columns": 1125000,
+        "model_rows": 2250,
+        "model_nnz": 2250000,
+        "build_seconds": 0.8008793219923973,
+        "native_result_available": true,
+        "last_model_status": "HighsModelStatus.kOptimal",
+        "peak_rss_kib": 908960
+      },
+      "method_status": "VERIFIED_BEST",
+      "independent": {
+        "pass": true,
+        "objective": 90179.13678381973,
+        "open_count": 316,
+        "arcs": 1639,
+        "max_demand_error": 7.771561172376096e-16,
+        "max_capacity_excess": 0.0,
+        "max_bound_excess": 0.0
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 12.001063454983523
+    }
+  ]
+}

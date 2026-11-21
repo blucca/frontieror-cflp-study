@@ -1,0 +1,58 @@
+{
+  "case": "tiny",
+  "algorithm": "highs-vub",
+  "seed": 1,
+  "status": "PASS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 0,
+  "algorithm_whole_seconds": 7.5967475670040585,
+  "cpu_seconds": 8.025230000000002,
+  "metrics": {
+    "solver": "HiGHS",
+    "version": "1.15.1",
+    "model_rows": 10201,
+    "model_columns": 10100,
+    "model_nnz": 40200,
+    "all_arcs": 10000,
+    "formulation": "original_vub",
+    "build_seconds": 0.17165696999290958,
+    "native_result_available": true,
+    "status": "HighsModelStatus.kOptimal",
+    "run_status": "HighsStatus.kOk",
+    "mip_gap": 9.473455064023936e-05,
+    "bound": 6152.675006081358,
+    "native_objective": 6153.257932206539,
+    "nodes": 33,
+    "independent": {
+      "pass": true,
+      "objective": 6153.257932206539,
+      "open_count": 34,
+      "arcs": 131,
+      "max_demand_error": 1.4876988529977098e-14,
+      "max_capacity_excess": 9.237055564881302e-14,
+      "max_bound_excess": 1.4876988529977098e-14
+    },
+    "whole_seconds": 7.509906171995681,
+    "peak_rss_kib": 161712
+  },
+  "independent": {
+    "pass": true,
+    "objective": 6153.257932206539,
+    "open_count": 34,
+    "arcs": 131,
+    "max_demand_error": 1.4876988529977098e-14,
+    "max_capacity_excess": 9.237055564881302e-14,
+    "max_bound_excess": 1.4876988529977098e-14
+  },
+  "official": {
+    "feasible": true,
+    "violated_constraints": [],
+    "violations": [],
+    "violation_magnitudes": []
+  },
+  "whole_with_checkers_seconds": 7.602898076991551
+}

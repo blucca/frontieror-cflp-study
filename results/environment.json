@@ -1,0 +1,20 @@
+{
+  "measured_date": "2026-11-22",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "versions": {
+    "numpy": "2.5.3",
+    "highspy": "1.15.1",
+    "ortools": "9.15.6755",
+    "SCIP": "10.0.0",
+    "SoPlex": "8.0.0"
+  },
+  "visible_guest_cpus": 4,
+  "algorithm_cpu_affinity_count": 2,
+  "address_space_limit_bytes": 4294967296,
+  "whole_algorithm_limit_seconds": 60,
+  "internal_solver_entry_seconds": 55,
+  "reference_hardware": "Different upstream run; exact comparison hardware was not recorded.",
+  "reference_threads": 1,
+  "source_revision": "ef42a2eac13595453f986d9df0b62e86e75ab596"
+}

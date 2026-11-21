@@ -1,0 +1,56 @@
+{
+  "num_customers": 3,
+  "num_plants": 2,
+  "customers": {
+    "demands": [
+      2,
+      1,
+      0
+    ],
+    "x_coords": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y_coords": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "plants": {
+    "capacities": [
+      1.5,
+      2.0
+    ],
+    "fixed_costs": [
+      1,
+      2
+    ],
+    "x_coords": [
+      0.0,
+      0.0
+    ],
+    "y_coords": [
+      0.0,
+      0.0
+    ]
+  },
+  "shipping_costs": [
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      9,
+      3
+    ]
+  ],
+  "capacity_tightness_ratio": 1,
+  "total_demand": 3,
+  "total_capacity": 3.5
+}

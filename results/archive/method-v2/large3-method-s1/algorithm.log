@@ -1,0 +1,3 @@
+{"event": "greedy", "wall": 0.3820391369808931, "objective": 165636.84791716083, "opened": 265}
+{"event": "built", "wall": 0.7557810349971987, "columns": 1125000, "rows": 2250}
+{"event": "finish", "wall": 18.76266564099933, "reason": "NATIVE_PENDING_FALLBACK", "objective": 165636.84791716083}

@@ -1,0 +1,29 @@
+[
+  {
+    "case": "large4",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_4.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 17612283,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 29929.0,
+    "capacity": 89786.99999999997,
+    "fixed_min_max": [
+      100.0,
+      200.0
+    ],
+    "shipping_min_max": [
+      1.8312,
+      410.9078
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      119.716,
+      119.716
+    ]
+  }
+]

@@ -1,0 +1,1070 @@
+[
+  {
+    "path": "results/archive/first/large4-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/large4-highs-s1/result.json",
+    "raw_sha256": "4ee976ff2cd610c326502e0247413410525e13d1f16869a18a92fc6741b99b7a",
+    "published_sha256": "4ee976ff2cd610c326502e0247413410525e13d1f16869a18a92fc6741b99b7a",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "a68b96c32213450bb0a27e31a987d59ea44585f36dd594113b1dcc14cbae9ac9",
+    "published_sha256": "0542edf672000fe99766e5d7e207df7e56d7cfca568c6a48160d19d149ac46b3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-highs-vub-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/large4-highs-vub-s1/result.json",
+    "raw_sha256": "e0403769689778c9d577f89b4b2d620251e3ead7ee3d74afcd5cee5f82469a31",
+    "published_sha256": "e0403769689778c9d577f89b4b2d620251e3ead7ee3d74afcd5cee5f82469a31",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-highs-vub-s1/solution.json.metrics.json",
+    "raw_sha256": "618a29aa5559366314911fbe5705a5fd6595812bec50aa3f7ab1f7a678735b4f",
+    "published_sha256": "5feac1e17329c1ac52b76df9c8f60cda72a009e8e62f42c00fb2034aa8d5ac3d",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-method-s1/algorithm.log",
+    "raw_sha256": "f9e69f89f525beaa47ff9312b8b0286a0ad33f62c08599cf97fda38513e2c0f9",
+    "published_sha256": "f9e69f89f525beaa47ff9312b8b0286a0ad33f62c08599cf97fda38513e2c0f9",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/large4-method-s1/result.json",
+    "raw_sha256": "d0050b2ba9ff60448ab43b8d0ecb6dd0bc08bd8b85356a278c88e0d6e17dbea3",
+    "published_sha256": "d0050b2ba9ff60448ab43b8d0ecb6dd0bc08bd8b85356a278c88e0d6e17dbea3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-method-s1/solution.json",
+    "raw_sha256": "f94af8e4873eb1dd8cdf65f3a8a2d718c66073fb6670ed9b8d735b918a3aaae7",
+    "published_sha256": "5351b4dc17204258400a51389c4ca143f13ec724c08fd9ca1c177a8ab1175810",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-scip-s1/algorithm.log",
+    "raw_sha256": "22b8912b1bacae0dca5eb795e2993c3e9fa89eb9204ec3edc87a90eb7bf102ad",
+    "published_sha256": "22b8912b1bacae0dca5eb795e2993c3e9fa89eb9204ec3edc87a90eb7bf102ad",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/large4-scip-s1/result.json",
+    "raw_sha256": "7b2f8229d34615f7fdd475319b367efb5fa779e3e16f203b13b08f1d102b292e",
+    "published_sha256": "7b2f8229d34615f7fdd475319b367efb5fa779e3e16f203b13b08f1d102b292e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/large4-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "4d395998fc628fa5e56c744c0a11306a0c8f6547bb8d37e304600ef39565b966",
+    "published_sha256": "3c307b7c52f4f14ee39333906f5a807e4388990509060995258f25f302af0adc",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/state.json",
+    "raw_sha256": "aed15020bc853bb9445be3f03ac1432a29f680eb062ab04917b8989b587cc00f",
+    "published_sha256": "e1d27cf30993b6561bd90ad46a93a08eb3ea1bc64e2b1fc5014c6a1a77322d74",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-s1/result.json",
+    "raw_sha256": "09dec1a6f3183b8cf7d355f6ae38a98ac6e038eb1dfe34c99f590bb223c74e7f",
+    "published_sha256": "09dec1a6f3183b8cf7d355f6ae38a98ac6e038eb1dfe34c99f590bb223c74e7f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-s1/solution.json",
+    "raw_sha256": "ff8a7dec89d964f156f243e5b4488d7c3be1bccd7727abf191ab0f3398d332d8",
+    "published_sha256": "b2a5cb4dbe10a4e6bd36f5d119b0075e8b41c614a6d49ca7ca5a3a66236ddd54",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "dba4addc377e98458384a6bf53348b5ea21fd058e7e700d15e1dd93e59e35696",
+    "published_sha256": "cf4942c3e6366f3a0050222102c1b6479247e856fc93818ccf60012e5cee0ffd",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-vub-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-vub-s1/result.json",
+    "raw_sha256": "7cf0000acaca73ad6eaa2346d33c4b94825c695a7bfb491274e3aea99fd0c2fd",
+    "published_sha256": "7cf0000acaca73ad6eaa2346d33c4b94825c695a7bfb491274e3aea99fd0c2fd",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-vub-s1/solution.json",
+    "raw_sha256": "c98aae92142a7a44e50f4c6009a38798f75030fc518727b94a3f4b34a57116b2",
+    "published_sha256": "8c129f1956e4350fddb67baf90b3c92096dcbc2c0ab10f20034354d7326b8b2b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-highs-vub-s1/solution.json.metrics.json",
+    "raw_sha256": "15dcfc90aafb773c255b4cb0c87b5bbc97c1f00fda4c84e00f7034c770aa87c3",
+    "published_sha256": "eedbc0f38c29701d0327193f23173a8249ed3190811dcfc5bfe68b037a605ddc",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-method-s1/algorithm.log",
+    "raw_sha256": "f7ff23a81f7039a055f3043f3c5a3654063d282a503101e4ed5ac9b43df7c62f",
+    "published_sha256": "f7ff23a81f7039a055f3043f3c5a3654063d282a503101e4ed5ac9b43df7c62f",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/tiny-method-s1/result.json",
+    "raw_sha256": "30702a276a2b81a5f7dd067b55e71b665648ed919798afbbfbe96e8e26045cc7",
+    "published_sha256": "30702a276a2b81a5f7dd067b55e71b665648ed919798afbbfbe96e8e26045cc7",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-method-s1/solution.json",
+    "raw_sha256": "de6e6ce8e1058d4300524d19bb58933c0b63383110b238316fabf998fe9541e0",
+    "published_sha256": "62c7eddb8b2c788ac6f2a0569b87dbbd39dc738cb83a923c2df7f8911c356b2f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-scip-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/first/tiny-scip-s1/result.json",
+    "raw_sha256": "29d1782781baf09cce171001450fb3c25905abcad22038b1052ee4e7fd014892",
+    "published_sha256": "29d1782781baf09cce171001450fb3c25905abcad22038b1052ee4e7fd014892",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-scip-s1/solution.json",
+    "raw_sha256": "dd14b2676e4865fb670bcc91049ebdaa37f80bdcafae95d915c215a9493b76c2",
+    "published_sha256": "a946059a41643c920a61fcdea425632dbb4dc050860200abdc782b5e688bfca9",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/first/tiny-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "eb24f3fbd381998f39911e32ea6655ea0b8ab42b8844480518e7efc87e425d21",
+    "published_sha256": "59b2026a09f0c3a7183f4544d1c8ddbbb110f10a1be0edf8f571a0d974b6af76",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-highs-off-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-highs-off-s1/result.json",
+    "raw_sha256": "5f4acdea3f64b7d791acc5bde863b4e7f80dbd5e2b888986e8c5a6e2c36c2899",
+    "published_sha256": "5f4acdea3f64b7d791acc5bde863b4e7f80dbd5e2b888986e8c5a6e2c36c2899",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-highs-off-s1/solution.json.metrics.json",
+    "raw_sha256": "dbd98c97ad2d03c2f202b8db17df07aa394692517cfdd0168c1eb9e825201f39",
+    "published_sha256": "43440120ba7e78d27874a3db927ec06df2a5c9f946882c1dc22ae77fbc599e9a",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-scip-s1/algorithm.log",
+    "raw_sha256": "ec7bbea5f421335d83cb09f4ee09a4fe78b42b64d4f19b30936038c38f4f48cd",
+    "published_sha256": "ec7bbea5f421335d83cb09f4ee09a4fe78b42b64d4f19b30936038c38f4f48cd",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-scip-s1/result.json",
+    "raw_sha256": "c7d6a9b4794bf3af85d17c5366ce6a76012f187bf43c3bf0826153ec294e1871",
+    "published_sha256": "c7d6a9b4794bf3af85d17c5366ce6a76012f187bf43c3bf0826153ec294e1871",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-baselines/large4-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "f82c94915a8d746bebdda1eb7600cd7e590aad73ea4dca59f672de6ffd87f500",
+    "published_sha256": "3f7318b08e000db20371e8eacb94d8ff827eabcb8882d3944a43ab6df6c325e3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-baselines/state.json",
+    "raw_sha256": "06a3d1741898222b1cbfe884607d25f426de2615b66516e663026e808c3d8d08",
+    "published_sha256": "bdf12e9e5d871bd6bea364d92c29f7564bc68541a61690ec70be6d1cc72872a9",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-tiny/state.json",
+    "raw_sha256": "197450b478e734dd76aa187538304fddcbd625c0d0f79e05c634e26e084aa47e",
+    "published_sha256": "c4b8bc1c5ff1cffa0200223ce3eba9a9040e02fc6de83c4ff5253bdfa2d891c9",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-tiny/tiny-scip-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/corrected-tiny/tiny-scip-s1/result.json",
+    "raw_sha256": "5dc7ba32139fc1ca1f26953358771696c67b6133b179a9d94b8e918dddae6c73",
+    "published_sha256": "5dc7ba32139fc1ca1f26953358771696c67b6133b179a9d94b8e918dddae6c73",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-tiny/tiny-scip-s1/solution.json",
+    "raw_sha256": "f20a568b5237242b7409aa43cca5b6edb337c674026e57e382ccc72ed706909c",
+    "published_sha256": "fd323e095dc206d8044e425f396e6c8422b697bc64f49d0c765be3f1698b62ec",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/corrected-tiny/tiny-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "561c1db459654637f0d488197b8fef13e05384d53f78a39853e5d9da98c487c6",
+    "published_sha256": "ffa1afab176f14a832744c20fa10cbf1ddb4e8fa08615bb1efa52d321e2f33b2",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large1-method-s1/algorithm.log",
+    "raw_sha256": "e724b559fb8f62eb4cd67a42a2ef020e37b8a12d9e7241a4083ddf8798771fc9",
+    "published_sha256": "e724b559fb8f62eb4cd67a42a2ef020e37b8a12d9e7241a4083ddf8798771fc9",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/large1-method-s1/result.json",
+    "raw_sha256": "cf29d25ffed048b3e0f348f6afe6d1d3382090d935d9a2308a7357498eb95c45",
+    "published_sha256": "cf29d25ffed048b3e0f348f6afe6d1d3382090d935d9a2308a7357498eb95c45",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large1-method-s1/solution.json",
+    "raw_sha256": "820996bf9a5dcee97dddd31061cec214682919fc3bea6a55c38081392856f035",
+    "published_sha256": "2ee60865332d59039f9bdf8679f97c77a471e4bce7315ea88bfa9f45dc44647c",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large2-method-s1/algorithm.log",
+    "raw_sha256": "cbd593dd5dd617c89d68db19a1038927f5157e0a99b308dac855ca7d643a0e37",
+    "published_sha256": "cbd593dd5dd617c89d68db19a1038927f5157e0a99b308dac855ca7d643a0e37",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/large2-method-s1/result.json",
+    "raw_sha256": "48778597a4454f721b4260ff906a10be5866760b7264231d052b30f600cca621",
+    "published_sha256": "48778597a4454f721b4260ff906a10be5866760b7264231d052b30f600cca621",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large2-method-s1/solution.json",
+    "raw_sha256": "a684efa7cfa5ba9e66780ccbe2fc308cf86cb67d2a67c1b91a9d8aec79b5da86",
+    "published_sha256": "08a5fee73ec481aef028cfe2656fb7a91a2f8a1ff0233f8aac280de2c46ae7aa",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large3-method-s1/algorithm.log",
+    "raw_sha256": "bda7e1032f2f9bfc57dbfdba6540549a22c50324d752deef1a88f014aeeb6437",
+    "published_sha256": "bda7e1032f2f9bfc57dbfdba6540549a22c50324d752deef1a88f014aeeb6437",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/large3-method-s1/result.json",
+    "raw_sha256": "3c618fdb2f81693ac28dc43f929c4235a8a85a548e1d11198f65c48c940f96a7",
+    "published_sha256": "3c618fdb2f81693ac28dc43f929c4235a8a85a548e1d11198f65c48c940f96a7",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large3-method-s1/solution.json",
+    "raw_sha256": "b2c13728986f8a843792f32ea1e33d7b459bd03f6395e83d9eae3eeece22763c",
+    "published_sha256": "0b0339f9e6cdfc1f167231dd9802067e31889ccc80ca762094e5204d4dee5052",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large4-method-s1/algorithm.log",
+    "raw_sha256": "0cbf889bb1c674132e1ece845b2ef8f139de5fdd012c0693103c98050576dfe7",
+    "published_sha256": "0cbf889bb1c674132e1ece845b2ef8f139de5fdd012c0693103c98050576dfe7",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/large4-method-s1/result.json",
+    "raw_sha256": "8eff3f06505d2fc1f654fb95f5aed20f16c0d9cd2a704ea0287018d23f4ab600",
+    "published_sha256": "8eff3f06505d2fc1f654fb95f5aed20f16c0d9cd2a704ea0287018d23f4ab600",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large4-method-s1/solution.json",
+    "raw_sha256": "5006062bb314d87dcb094581098a1b22e7d29fb5ad439003aa9df19c3cc9c2b3",
+    "published_sha256": "66a1314333c389ec4f0147e160c4aeb46de75cc1c58f7156a7faabf22c593fb1",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large5-method-s1/algorithm.log",
+    "raw_sha256": "9b83f9f96c2504a0ff96bd5e52fc7838abf25a486c838cd01e06d0bde7ca1bee",
+    "published_sha256": "9b83f9f96c2504a0ff96bd5e52fc7838abf25a486c838cd01e06d0bde7ca1bee",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/large5-method-s1/result.json",
+    "raw_sha256": "eabfebaf213c00f25a0ebd996a87e454aab5e3da8863aaf401deaed9576c754e",
+    "published_sha256": "eabfebaf213c00f25a0ebd996a87e454aab5e3da8863aaf401deaed9576c754e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/large5-method-s1/solution.json",
+    "raw_sha256": "5a79c229a3a37c436bb6263533578ce4a0b0d6a866fd02aa1a419124c3274029",
+    "published_sha256": "a892062ab0105ed8a147f0690f5fb5c5605c237f162e33ed74e70cdd3d43a4d1",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/state.json",
+    "raw_sha256": "c27cf16c142796e2c8f079d11bb4fb3463234a94624fd9e9aae3c408f2ab45a8",
+    "published_sha256": "b5c906f55cdda861abfa3f5df5c5bf69628e62a4fb87d2bb05e5be7c892ed089",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/tiny-method-s1/algorithm.log",
+    "raw_sha256": "1167a7a637370bc47ab5e318ca9ed7ef3b6a8428221d8463521ce1ddf4e083aa",
+    "published_sha256": "1167a7a637370bc47ab5e318ca9ed7ef3b6a8428221d8463521ce1ddf4e083aa",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/method-v2/tiny-method-s1/result.json",
+    "raw_sha256": "8f5dcbe6858290af1bf345128f569636fb392da256b6fb1bc2bd851ad885bfff",
+    "published_sha256": "8f5dcbe6858290af1bf345128f569636fb392da256b6fb1bc2bd851ad885bfff",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/method-v2/tiny-method-s1/solution.json",
+    "raw_sha256": "c17381bd75b0b06b8964773c0df396850ccc34e7e2531e835d466d841891b7e8",
+    "published_sha256": "871ff8f0ffe4949c3431200576a2b9927d9d75e52de990306068bf20150f0b23",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-first/large4-pool-s1/algorithm.log",
+    "raw_sha256": "ca217434a85953eb79d0dd62e5df34b9846bcadc874886d9a9ae87b9a76a7cca",
+    "published_sha256": "ca217434a85953eb79d0dd62e5df34b9846bcadc874886d9a9ae87b9a76a7cca",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-first/large4-pool-s1/result.json",
+    "raw_sha256": "d86655be6ac37047bfa0846f95d6e933991b64bb79482cc8a534bc19236eeb7b",
+    "published_sha256": "d86655be6ac37047bfa0846f95d6e933991b64bb79482cc8a534bc19236eeb7b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-first/large4-pool-s1/solution.json",
+    "raw_sha256": "c56d7a7ce7a1f58cc47856320879e48da891cea41b6e729d40273e5707e054b1",
+    "published_sha256": "3de91adc827c34ecedb90f74125b9a977e5b7127c5baa44200b28732682be815",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-first/state.json",
+    "raw_sha256": "56e7227f130c8340981fcd436d389432fb69e646c5e5a1f434078fc2e1f3ad0a",
+    "published_sha256": "849436ebbe38b72a5cd3fa9a3fcf95b039275df8d7fc064058867e0a3b41888f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-first/tiny-pool-s1/algorithm.log",
+    "raw_sha256": "7f8a94ddb24c5dc5381b6c69a644a8c6b8400c8f1a7a7ce917cc6d7f171196dc",
+    "published_sha256": "7f8a94ddb24c5dc5381b6c69a644a8c6b8400c8f1a7a7ce917cc6d7f171196dc",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-first/tiny-pool-s1/result.json",
+    "raw_sha256": "2b141306fa240dacf0b8c5f6d2a8a6b921c872a54b36062c4d72394761044d7b",
+    "published_sha256": "2b141306fa240dacf0b8c5f6d2a8a6b921c872a54b36062c4d72394761044d7b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-first/tiny-pool-s1/solution.json",
+    "raw_sha256": "7d955e894de3334ccb87c4be4cdaa32b4e5e9fe2d48d4fe625e16462cf56c142",
+    "published_sha256": "e2904499b6d76e9c8552702e88630e26421577ed1bc3a2bfd71730a07e635b46",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-highs-s1/result.json",
+    "raw_sha256": "ec760b2263daa9b9dfb8251826d7ca3303e813997079fbf46839bc5f2c776fdf",
+    "published_sha256": "ec760b2263daa9b9dfb8251826d7ca3303e813997079fbf46839bc5f2c776fdf",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "6cf7de032065227df775f51db3bf00700fdd82aa4cb7b042f6666d422a280c06",
+    "published_sha256": "c9baf82f0618935928c92839eedaf3a2f0bd3ad8c72b426e988b8049b1f43d0d",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-scip-s1/algorithm.log",
+    "raw_sha256": "def362bebc65e2558a7392bc79e1c13b244b0f798c47afb0bf8953180e7f5eff",
+    "published_sha256": "def362bebc65e2558a7392bc79e1c13b244b0f798c47afb0bf8953180e7f5eff",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-scip-s1/result.json",
+    "raw_sha256": "99e3b8ba1e8e467ef8574a226c288a4b6fa440c36b140bcdd809e8ebf8f753fa",
+    "published_sha256": "99e3b8ba1e8e467ef8574a226c288a4b6fa440c36b140bcdd809e8ebf8f753fa",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large1-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "2446e1d31125a678639effbf182e76b09dcd724a23b5115f8e49609eb507fd35",
+    "published_sha256": "33583dd6bce6ee080d4a4c044435cff4a6cc025ffd5bf32a32eeb404d8d1ff6e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-highs-s1/result.json",
+    "raw_sha256": "04312f5545bb03cf08f94cc104abb4111bf2cb41a42b6959a73bfdd26935fa4e",
+    "published_sha256": "04312f5545bb03cf08f94cc104abb4111bf2cb41a42b6959a73bfdd26935fa4e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "56e2f40f2e7a10c7403a7b548e583ad30c27418b6cec90c7299ef00c422af3c2",
+    "published_sha256": "302731986d8aeee7a0fc51bf15a3cd34dc394ac284e41cd774448e3264d14a3f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-scip-s1/algorithm.log",
+    "raw_sha256": "535c23e447b95c89ccb5d2fca58a34eeb62476ac46ebd9d35bbc8e282ffd430b",
+    "published_sha256": "535c23e447b95c89ccb5d2fca58a34eeb62476ac46ebd9d35bbc8e282ffd430b",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-scip-s1/result.json",
+    "raw_sha256": "cb8fb07c0cd8ddaeb231dade8a018d318ed3b8057c6182b55c1642fef3fac67c",
+    "published_sha256": "cb8fb07c0cd8ddaeb231dade8a018d318ed3b8057c6182b55c1642fef3fac67c",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large2-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "172e72398abdb3ac760aa65e6c4f14aee9212d5206485e4de9e53f963f0b0955",
+    "published_sha256": "f208cd672dbaffae23559d777fb3affc4c0f5af753aff3947d64e57e592bae12",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-highs-s1/result.json",
+    "raw_sha256": "89f7fb83f4967c2b1075d1848e889a6258c18cf923e852b8ef8866edd327404b",
+    "published_sha256": "89f7fb83f4967c2b1075d1848e889a6258c18cf923e852b8ef8866edd327404b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "780259852e8a1949b5df894586de856975d0a7f9533050e20b3fc705bfadb4b0",
+    "published_sha256": "664c8395135091dce0e26b07513c4e0fca3a7f73dae9ce1f7af8458cce5cd3c3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-scip-s1/algorithm.log",
+    "raw_sha256": "496ddbdb1c8e8eb382efb6d314fac86baaf09f197befa2f104e1157db9536b0b",
+    "published_sha256": "496ddbdb1c8e8eb382efb6d314fac86baaf09f197befa2f104e1157db9536b0b",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-scip-s1/result.json",
+    "raw_sha256": "6b1a64a5a185d4f411f23a325520d232aa5f0ddd3d5e498bdc387570ed6b322b",
+    "published_sha256": "6b1a64a5a185d4f411f23a325520d232aa5f0ddd3d5e498bdc387570ed6b322b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large3-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "bf016dc5388d683210e9bce7564d47b78d260d36302fc4c8366a9cf1eeb4cdf0",
+    "published_sha256": "b38f16cdb99a7c51ec32ec2424358e6ae2632f136539e6e3d8a3cd4bbdbb4ff2",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-highs-s1/result.json",
+    "raw_sha256": "3fabc3aa8ed43e0af574ad3d3d72f75e6ed672b60d4d47c6f0820f5d4218deaf",
+    "published_sha256": "3fabc3aa8ed43e0af574ad3d3d72f75e6ed672b60d4d47c6f0820f5d4218deaf",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "5773cc3d71cb1cacc0864dd7667dc3ff4e51a9070b563bcdf328fc5e921051e7",
+    "published_sha256": "57fa6ffd736fd68a3dca1bea35a2b6e26d4e95199360d907fe3bb4858882cb6c",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-scip-s1/algorithm.log",
+    "raw_sha256": "68bd5203dad8acff5b31a887f96fd688e5471049d84ecfe2cb54a024827b190e",
+    "published_sha256": "68bd5203dad8acff5b31a887f96fd688e5471049d84ecfe2cb54a024827b190e",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-scip-s1/result.json",
+    "raw_sha256": "32264e28f27a6f3acba46eb46619fd656feecbb9ec12971adea86c124bb9806b",
+    "published_sha256": "32264e28f27a6f3acba46eb46619fd656feecbb9ec12971adea86c124bb9806b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/large5-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "7116356b98ae8e9aef2d2aadf04e2387b8a5ae0f44b0af93d1ca4ae2fe72efff",
+    "published_sha256": "a8036fc6ffc56820e482640ca6f18a7b28030de51da83ba38c8f8253e811024f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/remaining-baselines/state.json",
+    "raw_sha256": "659698dc1098597f57d916e8985a210d79e27f799e392e0b9880db9cd61ded77",
+    "published_sha256": "2f718f2669cdb8fdbe6eed4eae553fa4f6e3957cabb9784088fe8dd72d5120c9",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large1-pool-s1/algorithm.log",
+    "raw_sha256": "f2d0e70ed002bce7fbafa887769868defa32debdffac49ff600b7bcb6977d015",
+    "published_sha256": "f2d0e70ed002bce7fbafa887769868defa32debdffac49ff600b7bcb6977d015",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-remaining/large1-pool-s1/result.json",
+    "raw_sha256": "8183749d0f6b91c599e9f5c5031c152111a3d364bfee6bab9cfe19e3f4b4d5df",
+    "published_sha256": "8183749d0f6b91c599e9f5c5031c152111a3d364bfee6bab9cfe19e3f4b4d5df",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large1-pool-s1/solution.json",
+    "raw_sha256": "bb090a4d79a8a51b584c07545cb6ae7da0023b9af4ed24b8ca4a778b75d03203",
+    "published_sha256": "44cc030ad049aeb6ce953481f4587d1289712a6f11dead3bd9bb742545251115",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large2-pool-s1/algorithm.log",
+    "raw_sha256": "b89486cb3aaac5f44abaff26272aad90b3acb7eb336b4ff4287d3c4e131b6cd0",
+    "published_sha256": "b89486cb3aaac5f44abaff26272aad90b3acb7eb336b4ff4287d3c4e131b6cd0",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-remaining/large2-pool-s1/result.json",
+    "raw_sha256": "fd72610d6096d5d27230d6540194db1020962603f7f993dd20a2f154c49747d0",
+    "published_sha256": "fd72610d6096d5d27230d6540194db1020962603f7f993dd20a2f154c49747d0",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large2-pool-s1/solution.json",
+    "raw_sha256": "7fa7027d1af5c64711fd91d96b17812bdec66f084c9ff960ef3caa917a2c344d",
+    "published_sha256": "fa17a66dd6f619f194f3445f661aa8b8831ef00edec707dda8daae3090ac1532",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large3-pool-s1/algorithm.log",
+    "raw_sha256": "f1429463126d79c737f451a2c70a40a3961870eab54b8ab7fd5efbd4be73d9ea",
+    "published_sha256": "f1429463126d79c737f451a2c70a40a3961870eab54b8ab7fd5efbd4be73d9ea",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-remaining/large3-pool-s1/result.json",
+    "raw_sha256": "b0d97910951dab9bbb07a00dc477af2ddb7659399f1fc87fc648b92bccb923c1",
+    "published_sha256": "b0d97910951dab9bbb07a00dc477af2ddb7659399f1fc87fc648b92bccb923c1",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large3-pool-s1/solution.json",
+    "raw_sha256": "2db7267ae886d4c32b7768c4da1ad4d8c0d49e0ad8437d2ef6984876cb804721",
+    "published_sha256": "ba417e0622e3375d0d5be2cd734b2d1325b7760170743937756dff7724a26b71",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large5-pool-s1/algorithm.log",
+    "raw_sha256": "1a7fc2bb54238ce87067884446e35b8cf7f83f70c1457c4683015ef85b89b2fd",
+    "published_sha256": "1a7fc2bb54238ce87067884446e35b8cf7f83f70c1457c4683015ef85b89b2fd",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/archive/pool-remaining/large5-pool-s1/result.json",
+    "raw_sha256": "75c8bc480d6d65d0d38fbedd6a2b47fcb30956fa28db4dd63e4c6df2cf6fcc77",
+    "published_sha256": "75c8bc480d6d65d0d38fbedd6a2b47fcb30956fa28db4dd63e4c6df2cf6fcc77",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/large5-pool-s1/solution.json",
+    "raw_sha256": "119ef7889f35544cd0ef92cd4aa7621ad2319064455051882bb63c4866f99138",
+    "published_sha256": "fbed9274a8b0dada1e1ee6eb9b5a52fa5ce784a35516afc599b2adf1446b94fa",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/archive/pool-remaining/state.json",
+    "raw_sha256": "8f94ed2a5575e4956edc322331208c88e5c1faa707b02ebcd8ab21323a729618",
+    "published_sha256": "3c826dcf845be37f94d1deb8a6e57e2b9910f4971864a66c65a98ec1ba259068",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/source-large1-large2-large3-large5.json",
+    "raw_sha256": "87d33745bb36700ba70532e5c036ff3e9efaec31cec77692b135918340f33c79",
+    "published_sha256": "87d33745bb36700ba70532e5c036ff3e9efaec31cec77692b135918340f33c79",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/source-large4.json",
+    "raw_sha256": "f60a69f59f0bfdd9b5eafa61eeef6185a9c98a8bff6fadf4930f5ca15f1e4f62",
+    "published_sha256": "f60a69f59f0bfdd9b5eafa61eeef6185a9c98a8bff6fadf4930f5ca15f1e4f62",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/source-tiny-large4-large1-large2-large3-large5.json",
+    "raw_sha256": "c7acd34e4dddfa7bdd7833a5643edeb62a1c2ce505d6bf4c85f66d8fe978ab5b",
+    "published_sha256": "c7acd34e4dddfa7bdd7833a5643edeb62a1c2ce505d6bf4c85f66d8fe978ab5b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/source-tiny-large4.json",
+    "raw_sha256": "9db6de477b50dad2d2882fdeb2be1dbb29bc5a18c64b1751a9782b040c4dc412",
+    "published_sha256": "9db6de477b50dad2d2882fdeb2be1dbb29bc5a18c64b1751a9782b040c4dc412",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/source-tiny.json",
+    "raw_sha256": "9e0336abe5ee4cffe9635d031146408438359e5fec9404ce856c26da5a05b910",
+    "published_sha256": "9e0336abe5ee4cffe9635d031146408438359e5fec9404ce856c26da5a05b910",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-highs-vub.json",
+    "raw_sha256": "95cec98d60bec30dde3e795fc33a19f9c696eb384319996ab4c88a1f8bf9dfb2",
+    "published_sha256": "fe2fb5152bdf7647f320bd9effc31cddc889c0b7cfd75e88e61742f6261637f6",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-highs-vub.json.metrics.json",
+    "raw_sha256": "487463cefb02cf80c24e9ba806e46a553951c153cc0c1e2085e42993f14dbfbc",
+    "published_sha256": "d7bd8879d14e7ab9913c8206e65d76d032fa3e991b726dad90a4a8c627fe2bb1",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-highs.json",
+    "raw_sha256": "95cec98d60bec30dde3e795fc33a19f9c696eb384319996ab4c88a1f8bf9dfb2",
+    "published_sha256": "fe2fb5152bdf7647f320bd9effc31cddc889c0b7cfd75e88e61742f6261637f6",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-highs.json.metrics.json",
+    "raw_sha256": "68d89c0898959d56448f8f0d9801d646d09e767ad5cff4e26403f38c729cb8fb",
+    "published_sha256": "c603daf9444f1fc07a5881f8450a8596633143dd8626f491b1fde555341569ea",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-method.json",
+    "raw_sha256": "c7245684568b8b86f46a5b824616dac2a2520451bff530de03b9f6cd5a7ba621",
+    "published_sha256": "75660ea137650aa675b60ef6fba979dcaa8ad2782510acb9dd78a7673184a6eb",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-scip.json",
+    "raw_sha256": "95cec98d60bec30dde3e795fc33a19f9c696eb384319996ab4c88a1f8bf9dfb2",
+    "published_sha256": "fe2fb5152bdf7647f320bd9effc31cddc889c0b7cfd75e88e61742f6261637f6",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic-scip.json.metrics.json",
+    "raw_sha256": "fc30d1a4c5aa7b8af8e6b64eacd7231e11501e7ed5be9eb096c688cb1072b224",
+    "published_sha256": "97b3252405b821797503396e7934f0d9d99c5d5df41c8fac62b9823837195fbc",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/synthetic.json",
+    "raw_sha256": "fd37dba5a5e9be933074674ed6d309c7a586189e2efcf311e77152be48349d86",
+    "published_sha256": "8a5caacd495d07eea4d16f514c50a738aa3cf51cec3399edf9c147515510ed69",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/provenance/versions-scip.json",
+    "raw_sha256": "cd04ca41dc0e1babf6c1a7bef0450679d01612a1893cd8cd35badcd8cbd0d849",
+    "published_sha256": "5fe151782a9a5a2c20f9e2fe51eb1e4d2adb14d49f9e8abeac429681766fa840",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/validation/pool-synthetic-csc.check.json",
+    "raw_sha256": "68b4c92c47562bf629cb711ae965f64a20461affae9620a2eceb9bc9566e0bee",
+    "published_sha256": "440dac1675e06a06d775685d87512677b61f0ddfd5cde3ac430ffd1a28789ded",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/validation/pool-synthetic-csc.json",
+    "raw_sha256": "5e19889cd6e317215a84c4c1f2b4cc317e05cd367fdf6e5eff814fd2461b48d7",
+    "published_sha256": "3bedbbaf506b693b2416116fbb9f49cd74c43c34d39587f64887a4d643aab6cc",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/validation/pool-synthetic-csc.log",
+    "raw_sha256": "5d808f1e62240fedbe58071cd67a6f5e994652e4f12cbfc10334a95fdc870414",
+    "published_sha256": "5d808f1e62240fedbe58071cd67a6f5e994652e4f12cbfc10334a95fdc870414",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/validation/pool-synthetic-csc.solution.json",
+    "raw_sha256": "69f8b29422f975a1ceae7075ce5bfe74ce9e3ae331364628bfe3e2e91b148cec",
+    "published_sha256": "261038bb086014d6ee5e2979556d7cdcbff6a707e02628bb72c77fcd66cf0b5d",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-solve-s1/algorithm.log",
+    "raw_sha256": "7f8a94ddb24c5dc5381b6c69a644a8c6b8400c8f1a7a7ce917cc6d7f171196dc",
+    "published_sha256": "7f8a94ddb24c5dc5381b6c69a644a8c6b8400c8f1a7a7ce917cc6d7f171196dc",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/tiny-solve-s1/result.json",
+    "raw_sha256": "2b141306fa240dacf0b8c5f6d2a8a6b921c872a54b36062c4d72394761044d7b",
+    "published_sha256": "2b141306fa240dacf0b8c5f6d2a8a6b921c872a54b36062c4d72394761044d7b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-solve-s1/solution.json",
+    "raw_sha256": "7d955e894de3334ccb87c4be4cdaa32b4e5e9fe2d48d4fe625e16462cf56c142",
+    "published_sha256": "e2904499b6d76e9c8552702e88630e26421577ed1bc3a2bfd71730a07e635b46",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/tiny-highs-s1/result.json",
+    "raw_sha256": "09dec1a6f3183b8cf7d355f6ae38a98ac6e038eb1dfe34c99f590bb223c74e7f",
+    "published_sha256": "09dec1a6f3183b8cf7d355f6ae38a98ac6e038eb1dfe34c99f590bb223c74e7f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-highs-s1/solution.json",
+    "raw_sha256": "ff8a7dec89d964f156f243e5b4488d7c3be1bccd7727abf191ab0f3398d332d8",
+    "published_sha256": "b2a5cb4dbe10a4e6bd36f5d119b0075e8b41c614a6d49ca7ca5a3a66236ddd54",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "dba4addc377e98458384a6bf53348b5ea21fd058e7e700d15e1dd93e59e35696",
+    "published_sha256": "cf4942c3e6366f3a0050222102c1b6479247e856fc93818ccf60012e5cee0ffd",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-scip-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/tiny-scip-s1/result.json",
+    "raw_sha256": "5dc7ba32139fc1ca1f26953358771696c67b6133b179a9d94b8e918dddae6c73",
+    "published_sha256": "5dc7ba32139fc1ca1f26953358771696c67b6133b179a9d94b8e918dddae6c73",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-scip-s1/solution.json",
+    "raw_sha256": "f20a568b5237242b7409aa43cca5b6edb337c674026e57e382ccc72ed706909c",
+    "published_sha256": "fd323e095dc206d8044e425f396e6c8422b697bc64f49d0c765be3f1698b62ec",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/tiny-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "561c1db459654637f0d488197b8fef13e05384d53f78a39853e5d9da98c487c6",
+    "published_sha256": "ffa1afab176f14a832744c20fa10cbf1ddb4e8fa08615bb1efa52d321e2f33b2",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-solve-s1/algorithm.log",
+    "raw_sha256": "f2d0e70ed002bce7fbafa887769868defa32debdffac49ff600b7bcb6977d015",
+    "published_sha256": "f2d0e70ed002bce7fbafa887769868defa32debdffac49ff600b7bcb6977d015",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large1-solve-s1/result.json",
+    "raw_sha256": "8183749d0f6b91c599e9f5c5031c152111a3d364bfee6bab9cfe19e3f4b4d5df",
+    "published_sha256": "8183749d0f6b91c599e9f5c5031c152111a3d364bfee6bab9cfe19e3f4b4d5df",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-solve-s1/solution.json",
+    "raw_sha256": "bb090a4d79a8a51b584c07545cb6ae7da0023b9af4ed24b8ca4a778b75d03203",
+    "published_sha256": "44cc030ad049aeb6ce953481f4587d1289712a6f11dead3bd9bb742545251115",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large1-highs-s1/result.json",
+    "raw_sha256": "ec760b2263daa9b9dfb8251826d7ca3303e813997079fbf46839bc5f2c776fdf",
+    "published_sha256": "ec760b2263daa9b9dfb8251826d7ca3303e813997079fbf46839bc5f2c776fdf",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "6cf7de032065227df775f51db3bf00700fdd82aa4cb7b042f6666d422a280c06",
+    "published_sha256": "c9baf82f0618935928c92839eedaf3a2f0bd3ad8c72b426e988b8049b1f43d0d",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-scip-s1/algorithm.log",
+    "raw_sha256": "def362bebc65e2558a7392bc79e1c13b244b0f798c47afb0bf8953180e7f5eff",
+    "published_sha256": "def362bebc65e2558a7392bc79e1c13b244b0f798c47afb0bf8953180e7f5eff",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large1-scip-s1/result.json",
+    "raw_sha256": "99e3b8ba1e8e467ef8574a226c288a4b6fa440c36b140bcdd809e8ebf8f753fa",
+    "published_sha256": "99e3b8ba1e8e467ef8574a226c288a4b6fa440c36b140bcdd809e8ebf8f753fa",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large1-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "2446e1d31125a678639effbf182e76b09dcd724a23b5115f8e49609eb507fd35",
+    "published_sha256": "33583dd6bce6ee080d4a4c044435cff4a6cc025ffd5bf32a32eeb404d8d1ff6e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-solve-s1/algorithm.log",
+    "raw_sha256": "b89486cb3aaac5f44abaff26272aad90b3acb7eb336b4ff4287d3c4e131b6cd0",
+    "published_sha256": "b89486cb3aaac5f44abaff26272aad90b3acb7eb336b4ff4287d3c4e131b6cd0",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large2-solve-s1/result.json",
+    "raw_sha256": "fd72610d6096d5d27230d6540194db1020962603f7f993dd20a2f154c49747d0",
+    "published_sha256": "fd72610d6096d5d27230d6540194db1020962603f7f993dd20a2f154c49747d0",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-solve-s1/solution.json",
+    "raw_sha256": "7fa7027d1af5c64711fd91d96b17812bdec66f084c9ff960ef3caa917a2c344d",
+    "published_sha256": "fa17a66dd6f619f194f3445f661aa8b8831ef00edec707dda8daae3090ac1532",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large2-highs-s1/result.json",
+    "raw_sha256": "04312f5545bb03cf08f94cc104abb4111bf2cb41a42b6959a73bfdd26935fa4e",
+    "published_sha256": "04312f5545bb03cf08f94cc104abb4111bf2cb41a42b6959a73bfdd26935fa4e",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "56e2f40f2e7a10c7403a7b548e583ad30c27418b6cec90c7299ef00c422af3c2",
+    "published_sha256": "302731986d8aeee7a0fc51bf15a3cd34dc394ac284e41cd774448e3264d14a3f",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-scip-s1/algorithm.log",
+    "raw_sha256": "535c23e447b95c89ccb5d2fca58a34eeb62476ac46ebd9d35bbc8e282ffd430b",
+    "published_sha256": "535c23e447b95c89ccb5d2fca58a34eeb62476ac46ebd9d35bbc8e282ffd430b",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large2-scip-s1/result.json",
+    "raw_sha256": "cb8fb07c0cd8ddaeb231dade8a018d318ed3b8057c6182b55c1642fef3fac67c",
+    "published_sha256": "cb8fb07c0cd8ddaeb231dade8a018d318ed3b8057c6182b55c1642fef3fac67c",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large2-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "172e72398abdb3ac760aa65e6c4f14aee9212d5206485e4de9e53f963f0b0955",
+    "published_sha256": "f208cd672dbaffae23559d777fb3affc4c0f5af753aff3947d64e57e592bae12",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-solve-s1/algorithm.log",
+    "raw_sha256": "f1429463126d79c737f451a2c70a40a3961870eab54b8ab7fd5efbd4be73d9ea",
+    "published_sha256": "f1429463126d79c737f451a2c70a40a3961870eab54b8ab7fd5efbd4be73d9ea",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large3-solve-s1/result.json",
+    "raw_sha256": "b0d97910951dab9bbb07a00dc477af2ddb7659399f1fc87fc648b92bccb923c1",
+    "published_sha256": "b0d97910951dab9bbb07a00dc477af2ddb7659399f1fc87fc648b92bccb923c1",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-solve-s1/solution.json",
+    "raw_sha256": "2db7267ae886d4c32b7768c4da1ad4d8c0d49e0ad8437d2ef6984876cb804721",
+    "published_sha256": "ba417e0622e3375d0d5be2cd734b2d1325b7760170743937756dff7724a26b71",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large3-highs-s1/result.json",
+    "raw_sha256": "89f7fb83f4967c2b1075d1848e889a6258c18cf923e852b8ef8866edd327404b",
+    "published_sha256": "89f7fb83f4967c2b1075d1848e889a6258c18cf923e852b8ef8866edd327404b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "780259852e8a1949b5df894586de856975d0a7f9533050e20b3fc705bfadb4b0",
+    "published_sha256": "664c8395135091dce0e26b07513c4e0fca3a7f73dae9ce1f7af8458cce5cd3c3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-scip-s1/algorithm.log",
+    "raw_sha256": "496ddbdb1c8e8eb382efb6d314fac86baaf09f197befa2f104e1157db9536b0b",
+    "published_sha256": "496ddbdb1c8e8eb382efb6d314fac86baaf09f197befa2f104e1157db9536b0b",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large3-scip-s1/result.json",
+    "raw_sha256": "6b1a64a5a185d4f411f23a325520d232aa5f0ddd3d5e498bdc387570ed6b322b",
+    "published_sha256": "6b1a64a5a185d4f411f23a325520d232aa5f0ddd3d5e498bdc387570ed6b322b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large3-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "bf016dc5388d683210e9bce7564d47b78d260d36302fc4c8366a9cf1eeb4cdf0",
+    "published_sha256": "b38f16cdb99a7c51ec32ec2424358e6ae2632f136539e6e3d8a3cd4bbdbb4ff2",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-solve-s1/algorithm.log",
+    "raw_sha256": "ca217434a85953eb79d0dd62e5df34b9846bcadc874886d9a9ae87b9a76a7cca",
+    "published_sha256": "ca217434a85953eb79d0dd62e5df34b9846bcadc874886d9a9ae87b9a76a7cca",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large4-solve-s1/result.json",
+    "raw_sha256": "d86655be6ac37047bfa0846f95d6e933991b64bb79482cc8a534bc19236eeb7b",
+    "published_sha256": "d86655be6ac37047bfa0846f95d6e933991b64bb79482cc8a534bc19236eeb7b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-solve-s1/solution.json",
+    "raw_sha256": "c56d7a7ce7a1f58cc47856320879e48da891cea41b6e729d40273e5707e054b1",
+    "published_sha256": "3de91adc827c34ecedb90f74125b9a977e5b7127c5baa44200b28732682be815",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large4-highs-s1/result.json",
+    "raw_sha256": "4ee976ff2cd610c326502e0247413410525e13d1f16869a18a92fc6741b99b7a",
+    "published_sha256": "4ee976ff2cd610c326502e0247413410525e13d1f16869a18a92fc6741b99b7a",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "a68b96c32213450bb0a27e31a987d59ea44585f36dd594113b1dcc14cbae9ac9",
+    "published_sha256": "0542edf672000fe99766e5d7e207df7e56d7cfca568c6a48160d19d149ac46b3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-scip-s1/algorithm.log",
+    "raw_sha256": "ec7bbea5f421335d83cb09f4ee09a4fe78b42b64d4f19b30936038c38f4f48cd",
+    "published_sha256": "ec7bbea5f421335d83cb09f4ee09a4fe78b42b64d4f19b30936038c38f4f48cd",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large4-scip-s1/result.json",
+    "raw_sha256": "c7d6a9b4794bf3af85d17c5366ce6a76012f187bf43c3bf0826153ec294e1871",
+    "published_sha256": "c7d6a9b4794bf3af85d17c5366ce6a76012f187bf43c3bf0826153ec294e1871",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large4-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "f82c94915a8d746bebdda1eb7600cd7e590aad73ea4dca59f672de6ffd87f500",
+    "published_sha256": "3f7318b08e000db20371e8eacb94d8ff827eabcb8882d3944a43ab6df6c325e3",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-solve-s1/algorithm.log",
+    "raw_sha256": "1a7fc2bb54238ce87067884446e35b8cf7f83f70c1457c4683015ef85b89b2fd",
+    "published_sha256": "1a7fc2bb54238ce87067884446e35b8cf7f83f70c1457c4683015ef85b89b2fd",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large5-solve-s1/result.json",
+    "raw_sha256": "75c8bc480d6d65d0d38fbedd6a2b47fcb30956fa28db4dd63e4c6df2cf6fcc77",
+    "published_sha256": "75c8bc480d6d65d0d38fbedd6a2b47fcb30956fa28db4dd63e4c6df2cf6fcc77",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-solve-s1/solution.json",
+    "raw_sha256": "119ef7889f35544cd0ef92cd4aa7621ad2319064455051882bb63c4866f99138",
+    "published_sha256": "fbed9274a8b0dada1e1ee6eb9b5a52fa5ce784a35516afc599b2adf1446b94fa",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-highs-s1/algorithm.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large5-highs-s1/result.json",
+    "raw_sha256": "3fabc3aa8ed43e0af574ad3d3d72f75e6ed672b60d4d47c6f0820f5d4218deaf",
+    "published_sha256": "3fabc3aa8ed43e0af574ad3d3d72f75e6ed672b60d4d47c6f0820f5d4218deaf",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-highs-s1/solution.json.metrics.json",
+    "raw_sha256": "5773cc3d71cb1cacc0864dd7667dc3ff4e51a9070b563bcdf328fc5e921051e7",
+    "published_sha256": "57fa6ffd736fd68a3dca1bea35a2b6e26d4e95199360d907fe3bb4858882cb6c",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-scip-s1/algorithm.log",
+    "raw_sha256": "68bd5203dad8acff5b31a887f96fd688e5471049d84ecfe2cb54a024827b190e",
+    "published_sha256": "68bd5203dad8acff5b31a887f96fd688e5471049d84ecfe2cb54a024827b190e",
+    "normalization": "private path normalization if present"
+  },
+  {
+    "path": "results/latest/large5-scip-s1/result.json",
+    "raw_sha256": "32264e28f27a6f3acba46eb46619fd656feecbb9ec12971adea86c124bb9806b",
+    "published_sha256": "32264e28f27a6f3acba46eb46619fd656feecbb9ec12971adea86c124bb9806b",
+    "normalization": "portable JSON formatting; process id removed"
+  },
+  {
+    "path": "results/latest/large5-scip-s1/solution.json.metrics.json",
+    "raw_sha256": "7116356b98ae8e9aef2d2aadf04e2387b8a5ae0f44b0af93d1ca4ae2fe72efff",
+    "published_sha256": "a8036fc6ffc56820e482640ca6f18a7b28030de51da83ba38c8f8253e811024f",
+    "normalization": "portable JSON formatting; process id removed"
+  }
+]

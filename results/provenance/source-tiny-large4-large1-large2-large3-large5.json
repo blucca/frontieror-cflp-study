@@ -1,0 +1,164 @@
+[
+  {
+    "case": "tiny",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/tiny_instance.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 175678,
+    "customers": 100,
+    "plants": 100,
+    "shipping_arcs": 10000,
+    "demand": 2018.0,
+    "capacity": 6053.999999999999,
+    "fixed_min_max": [
+      101.0,
+      197.0
+    ],
+    "shipping_min_max": [
+      0.7146,
+      357.8381
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      60.54,
+      60.54
+    ]
+  },
+  {
+    "case": "large4",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_4.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 17612283,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 29929.0,
+    "capacity": 89786.99999999997,
+    "fixed_min_max": [
+      100.0,
+      200.0
+    ],
+    "shipping_min_max": [
+      1.8312,
+      410.9078
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      119.716,
+      119.716
+    ]
+  },
+  {
+    "case": "large1",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_1.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 17350517,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 29977.0,
+    "capacity": 89930.99999999997,
+    "fixed_min_max": [
+      102.0,
+      199.0
+    ],
+    "shipping_min_max": [
+      0.0354,
+      458.0695
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      119.908,
+      119.908
+    ]
+  },
+  {
+    "case": "large2",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_2.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 17570617,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 29847.0,
+    "capacity": 89541.0,
+    "fixed_min_max": [
+      20.0,
+      40.0
+    ],
+    "shipping_min_max": [
+      0.0988,
+      946.8748
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      119.388,
+      119.388
+    ]
+  },
+  {
+    "case": "large3",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_3.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 16571343,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 30015.0,
+    "capacity": 90044.99999999997,
+    "fixed_min_max": [
+      500.0,
+      995.0
+    ],
+    "shipping_min_max": [
+      0.0093,
+      90.9621
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      120.06,
+      120.06
+    ]
+  },
+  {
+    "case": "large5",
+    "source_url": "https://huggingface.co/datasets/frontieror/FrontierOR/resolve/ef42a2eac13595453f986d9df0b62e86e75ab596/tasks/klose2005/instance/large_instance_5.json",
+    "revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+    "full_input_bytes": 17355457,
+    "customers": 1500,
+    "plants": 750,
+    "shipping_arcs": 1125000,
+    "demand": 30451.0,
+    "capacity": 91353.0,
+    "fixed_min_max": [
+      500.0,
+      6000.0
+    ],
+    "shipping_min_max": [
+      0.0806,
+      471.085
+    ],
+    "demand_min_max": [
+      5.0,
+      35.0
+    ],
+    "capacity_min_max": [
+      121.804,
+      121.804
+    ]
+  }
+]

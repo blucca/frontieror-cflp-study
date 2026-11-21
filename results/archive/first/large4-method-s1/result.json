@@ -1,0 +1,48 @@
+{
+  "case": "large4",
+  "algorithm": "method",
+  "seed": 1,
+  "status": "PASS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 0,
+  "algorithm_whole_seconds": 11.683529834001092,
+  "cpu_seconds": 11.641215000000035,
+  "metrics": {
+    "algorithm": "full_q_slope_transport_exchange",
+    "seed": 1,
+    "threads": 1,
+    "model_scope": "full_original",
+    "native_runs": 8,
+    "accepted_moves": 4,
+    "first_incumbent_seconds": 0.3962082859943621,
+    "solver_version": "1.15.1",
+    "model_columns": 1125000,
+    "model_rows": 2250,
+    "model_nnz": 2250000,
+    "build_seconds": 0.8008793219923973,
+    "native_result_available": true,
+    "last_model_status": "HighsModelStatus.kOptimal",
+    "peak_rss_kib": 908960
+  },
+  "method_status": "VERIFIED_BEST",
+  "independent": {
+    "pass": true,
+    "objective": 90179.13678381973,
+    "open_count": 316,
+    "arcs": 1639,
+    "max_demand_error": 7.771561172376096e-16,
+    "max_capacity_excess": 0.0,
+    "max_bound_excess": 0.0
+  },
+  "official": {
+    "feasible": true,
+    "violated_constraints": [],
+    "violations": [],
+    "violation_magnitudes": []
+  },
+  "whole_with_checkers_seconds": 12.001063454983523
+}

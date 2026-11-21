@@ -1,0 +1,1 @@
+{"algorithm": "fixed16_greedy_arc_pool_mip", "threads": 2, "seed": 1, "certificate_scope": "full_original_feasibility_only", "native_optimization_scope": "arc_pool_subproblem", "native_result_available": false, "first_incumbent_seconds": 0.0838821018114686, "fallback_error": "ModuleNotFoundError: No module named 'highspy'", "termination": "VERIFIED_EXCEPTION_FALLBACK"}

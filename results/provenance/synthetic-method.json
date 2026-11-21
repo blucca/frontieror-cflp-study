@@ -1,0 +1,38 @@
+{
+  "objective_value": 10.0,
+  "open_plants": [
+    0,
+    1
+  ],
+  "assignments": {
+    "0": {
+      "0": 0.75,
+      "1": 0.25
+    },
+    "1": {
+      "1": 1.0
+    },
+    "2": {
+      "1": 1.0
+    }
+  },
+  "runtime": 0.19459127797745168,
+  "status": "VERIFIED_BEST",
+  "method_metrics": {
+    "algorithm": "full_q_slope_transport_exchange",
+    "seed": 1,
+    "threads": 1,
+    "model_scope": "full_original",
+    "native_runs": 1,
+    "accepted_moves": 0,
+    "first_incumbent_seconds": 0.16652090998832136,
+    "solver_version": "1.15.1",
+    "model_columns": 4,
+    "model_rows": 4,
+    "model_nnz": 8,
+    "build_seconds": 0.18894740799441934,
+    "native_result_available": true,
+    "last_model_status": "HighsModelStatus.kOptimal",
+    "peak_rss_kib": 49168
+  }
+}

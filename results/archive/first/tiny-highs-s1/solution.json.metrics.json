@@ -1,0 +1,28 @@
+{
+  "solver": "HiGHS",
+  "version": "1.15.1",
+  "model_rows": 201,
+  "model_columns": 10100,
+  "model_nnz": 20200,
+  "all_arcs": 10000,
+  "formulation": "compact_equivalent",
+  "build_seconds": 0.17000645998632535,
+  "native_result_available": true,
+  "status": "HighsModelStatus.kOptimal",
+  "run_status": "HighsStatus.kOk",
+  "mip_gap": 9.969473513886722e-05,
+  "bound": 6152.644484786746,
+  "native_objective": 6153.2579322065385,
+  "nodes": 29,
+  "independent": {
+    "pass": true,
+    "objective": 6153.257932206541,
+    "open_count": 34,
+    "arcs": 132,
+    "max_demand_error": 2.4868995751603507e-14,
+    "max_capacity_excess": 9.947598300641403e-14,
+    "max_bound_excess": 1.4654943925052066e-14
+  },
+  "whole_seconds": 5.122150004986906,
+  "peak_rss_kib": 120088
+}

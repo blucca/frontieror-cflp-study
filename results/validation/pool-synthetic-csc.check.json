@@ -1,0 +1,8 @@
+{
+  "check": "PASS CSC coverage, forced greedy support, all-y VUB incidence, zero-demand/negative-fixed warm",
+  "pool_arcs": 33,
+  "model_rows": 56,
+  "model_columns": 53,
+  "model_nnz": 172,
+  "warm_objective": 30.0
+}

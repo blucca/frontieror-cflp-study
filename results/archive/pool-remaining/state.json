@@ -1,0 +1,258 @@
+{
+  "status": "DONE",
+  "cases": [
+    "large1",
+    "large2",
+    "large3",
+    "large5"
+  ],
+  "algorithms": [
+    "pool"
+  ],
+  "results": [
+    {
+      "case": "large1",
+      "algorithm": "pool",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 53.01312048998079,
+      "cpu_seconds": 53.504321,
+      "metrics": {
+        "algorithm": "fixed16_greedy_arc_pool_mip",
+        "threads": 2,
+        "seed": 1,
+        "certificate_scope": "full_original_feasibility_only",
+        "native_optimization_scope": "arc_pool_subproblem",
+        "native_result_available": true,
+        "first_incumbent_seconds": 0.40214374600327574,
+        "solver_version": "1.15.1",
+        "all_source_arcs": 1125000,
+        "pool_arcs": 24000,
+        "model_rows": 26251,
+        "model_columns": 24750,
+        "model_nnz": 97500,
+        "build_seconds": 0.5523728969856165,
+        "warm_objective": 61771.41868918194,
+        "pool_model_status": "HighsModelStatus.kTimeLimit",
+        "run_status": "HighsStatus.kWarning",
+        "independent": {
+          "pass": true,
+          "objective": 40150.95332200053,
+          "open_count": 250,
+          "arcs": 1771,
+          "max_demand_error": 4.973799150320701e-13,
+          "max_capacity_excess": 3.794298208958935e-12,
+          "max_bound_excess": 1.1013412404281553e-13
+        },
+        "peak_rss_kib": 569716,
+        "termination": "RETURNED_VERIFIED_BEST"
+      },
+      "method_status": "Feasible",
+      "independent": {
+        "pass": true,
+        "objective": 40150.95332200053,
+        "open_count": 250,
+        "arcs": 1771,
+        "max_demand_error": 4.973799150320701e-13,
+        "max_capacity_excess": 3.794298208958935e-12,
+        "max_bound_excess": 1.1013412404281553e-13
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 53.28500543299015
+    },
+    {
+      "case": "large2",
+      "algorithm": "pool",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 53.01732314997935,
+      "cpu_seconds": 53.79167900000001,
+      "metrics": {
+        "algorithm": "fixed16_greedy_arc_pool_mip",
+        "threads": 2,
+        "seed": 1,
+        "certificate_scope": "full_original_feasibility_only",
+        "native_optimization_scope": "arc_pool_subproblem",
+        "native_result_available": true,
+        "first_incumbent_seconds": 0.36906934800208546,
+        "solver_version": "1.15.1",
+        "all_source_arcs": 1125000,
+        "pool_arcs": 24000,
+        "model_rows": 26251,
+        "model_columns": 24750,
+        "model_nnz": 97500,
+        "build_seconds": 0.5156912590027787,
+        "warm_objective": 28490.18720863889,
+        "pool_model_status": "HighsModelStatus.kTimeLimit",
+        "run_status": "HighsStatus.kWarning",
+        "independent": {
+          "pass": true,
+          "objective": 21157.21442570778,
+          "open_count": 273,
+          "arcs": 1702,
+          "max_demand_error": 1.0877965195277284e-12,
+          "max_capacity_excess": 2.546585164964199e-11,
+          "max_bound_excess": 1.0877965195277284e-12
+        },
+        "peak_rss_kib": 641432,
+        "termination": "RETURNED_VERIFIED_BEST"
+      },
+      "method_status": "Feasible",
+      "independent": {
+        "pass": true,
+        "objective": 21157.21442570778,
+        "open_count": 273,
+        "arcs": 1702,
+        "max_demand_error": 1.0877965195277284e-12,
+        "max_capacity_excess": 2.546585164964199e-11,
+        "max_bound_excess": 1.0877965195277284e-12
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 53.304156102996785
+    },
+    {
+      "case": "large3",
+      "algorithm": "pool",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 2.8878853079804685,
+      "cpu_seconds": 3.894521000000001,
+      "metrics": {
+        "algorithm": "fixed16_greedy_arc_pool_mip",
+        "threads": 2,
+        "seed": 1,
+        "certificate_scope": "full_original_feasibility_only",
+        "native_optimization_scope": "arc_pool_subproblem",
+        "native_result_available": true,
+        "first_incumbent_seconds": 0.3837195870000869,
+        "solver_version": "1.15.1",
+        "all_source_arcs": 1125000,
+        "pool_arcs": 24947,
+        "model_rows": 27198,
+        "model_columns": 25697,
+        "model_nnz": 101288,
+        "build_seconds": 0.5422976670088246,
+        "warm_objective": 165636.84791716083,
+        "pool_model_status": "HighsModelStatus.kOptimal",
+        "run_status": "HighsStatus.kOk",
+        "independent": {
+          "pass": true,
+          "objective": 162950.20391724448,
+          "open_count": 263,
+          "arcs": 1739,
+          "max_demand_error": 4.440892098500626e-16,
+          "max_capacity_excess": 0.0,
+          "max_bound_excess": 4.440892098500626e-16
+        },
+        "peak_rss_kib": 323824,
+        "termination": "RETURNED_VERIFIED_BEST"
+      },
+      "method_status": "Feasible",
+      "independent": {
+        "pass": true,
+        "objective": 162950.20391724448,
+        "open_count": 263,
+        "arcs": 1739,
+        "max_demand_error": 4.440892098500626e-16,
+        "max_capacity_excess": 0.0,
+        "max_bound_excess": 4.440892098500626e-16
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 3.1738713209924754
+    },
+    {
+      "case": "large5",
+      "algorithm": "pool",
+      "seed": 1,
+      "status": "PASS",
+      "resource_limits": {
+        "whole_algorithm_seconds": 60,
+        "address_space_bytes": 4294967296,
+        "cpus": 2
+      },
+      "algorithm_exit": 0,
+      "algorithm_whole_seconds": 6.705171089997748,
+      "cpu_seconds": 8.522055999999994,
+      "metrics": {
+        "algorithm": "fixed16_greedy_arc_pool_mip",
+        "threads": 2,
+        "seed": 1,
+        "certificate_scope": "full_original_feasibility_only",
+        "native_optimization_scope": "arc_pool_subproblem",
+        "native_result_available": true,
+        "first_incumbent_seconds": 0.39548215598915704,
+        "solver_version": "1.15.1",
+        "all_source_arcs": 1125000,
+        "pool_arcs": 24507,
+        "model_rows": 26758,
+        "model_columns": 25257,
+        "model_nnz": 99528,
+        "build_seconds": 0.5553637059929315,
+        "warm_objective": 320938.60984022,
+        "pool_model_status": "HighsModelStatus.kOptimal",
+        "run_status": "HighsStatus.kOk",
+        "independent": {
+          "pass": true,
+          "objective": 312314.60313472146,
+          "open_count": 322,
+          "arcs": 1701,
+          "max_demand_error": 5.329070518200751e-15,
+          "max_capacity_excess": 1.5631940186722204e-13,
+          "max_bound_excess": 5.329070518200751e-15
+        },
+        "peak_rss_kib": 351188,
+        "termination": "RETURNED_VERIFIED_BEST"
+      },
+      "method_status": "Feasible",
+      "independent": {
+        "pass": true,
+        "objective": 312314.60313472146,
+        "open_count": 322,
+        "arcs": 1701,
+        "max_demand_error": 5.329070518200751e-15,
+        "max_capacity_excess": 1.5631940186722204e-13,
+        "max_bound_excess": 5.329070518200751e-15
+      },
+      "official": {
+        "feasible": true,
+        "violated_constraints": [],
+        "violations": [],
+        "violation_magnitudes": []
+      },
+      "whole_with_checkers_seconds": 6.990434172999812
+    }
+  ]
+}

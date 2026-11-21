@@ -1,0 +1,25 @@
+{
+  "solver": "SCIP",
+  "version": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+  "formulation": "compact_equivalent",
+  "status": 0,
+  "model_rows": 201,
+  "model_columns": 10100,
+  "all_arcs": 10000,
+  "build_seconds": 0.2532466650009155,
+  "nodes": 285,
+  "native_result_available": true,
+  "bound": 6153.25793220654,
+  "native_objective": 6153.25793220654,
+  "independent": {
+    "pass": true,
+    "objective": 6331.257932206541,
+    "open_count": 35,
+    "arcs": 140,
+    "max_demand_error": 5.284661597215745e-14,
+    "max_capacity_excess": 5.258016244624741e-13,
+    "max_bound_excess": 5.284661597215745e-14
+  },
+  "whole_seconds": 22.03577968600439,
+  "peak_rss_kib": 482324
+}

@@ -1,0 +1,61 @@
+{
+  "case": "large4",
+  "algorithm": "pool",
+  "seed": 1,
+  "status": "PASS",
+  "resource_limits": {
+    "whole_algorithm_seconds": 60,
+    "address_space_bytes": 4294967296,
+    "cpus": 2
+  },
+  "algorithm_exit": 0,
+  "algorithm_whole_seconds": 53.046310748002725,
+  "cpu_seconds": 53.394563999999995,
+  "metrics": {
+    "algorithm": "fixed16_greedy_arc_pool_mip",
+    "threads": 2,
+    "seed": 1,
+    "certificate_scope": "full_original_feasibility_only",
+    "native_optimization_scope": "arc_pool_subproblem",
+    "native_result_available": true,
+    "first_incumbent_seconds": 0.4163801950053312,
+    "solver_version": "1.15.1",
+    "all_source_arcs": 1125000,
+    "pool_arcs": 24000,
+    "model_rows": 26251,
+    "model_columns": 24750,
+    "model_nnz": 97500,
+    "build_seconds": 0.56590924601187,
+    "warm_objective": 121278.69121216354,
+    "pool_model_status": "HighsModelStatus.kTimeLimit",
+    "run_status": "HighsStatus.kWarning",
+    "independent": {
+      "pass": true,
+      "objective": 85458.43882743923,
+      "open_count": 309,
+      "arcs": 1618,
+      "max_demand_error": 1.5543122344752192e-15,
+      "max_capacity_excess": 1.4210854715202004e-14,
+      "max_bound_excess": 0.0
+    },
+    "peak_rss_kib": 409372,
+    "termination": "RETURNED_VERIFIED_BEST"
+  },
+  "method_status": "Feasible",
+  "independent": {
+    "pass": true,
+    "objective": 85458.43882743923,
+    "open_count": 309,
+    "arcs": 1618,
+    "max_demand_error": 1.5543122344752192e-15,
+    "max_capacity_excess": 1.4210854715202004e-14,
+    "max_bound_excess": 0.0
+  },
+  "official": {
+    "feasible": true,
+    "violated_constraints": [],
+    "violations": [],
+    "violation_magnitudes": []
+  },
+  "whole_with_checkers_seconds": 53.33368803097983
+}
