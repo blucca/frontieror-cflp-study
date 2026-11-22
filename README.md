@@ -199,6 +199,19 @@ core objective along that face. A complete read-only input audit checks all
 1,125,000 arcs and the stored witness; new Pareto LP/master/recourse runs are zero.
 [Argument, numerical scope and runnable audit](research/dual-face-rigidity/).
 
+
+### Demand-limited facility cuts: complete gate stopped
+
+Keeping each customer's original demand bound strengthens all 750 facility
+coefficients. A complete stored-prior large4 run evaluates seven new facility
+sets: all seven Optimal transportation LPs and both full witness checkers pass,
+within 35.475 seconds including final checks. The lowest new cost is 84906.98758
+(+0.49417%); the retained best remains 84489.46641. The required 0.5% cost
+reduction fails, so this method's six-case cold extension stops. The first
+load-warning assertion failure, narrow API repair and all seven outcomes are
+preserved in [method, source and bounded replay](research/bounded-demand-vub-20261122/).
+The selected fast solver and all existing cold controls stay unchanged.
+
 ## Cold full-MIP controls
 
 Both controls use every original shipping arc and all facilities, with no greedy

@@ -1,0 +1,9 @@
+{"event": "checkpoint", "wall": 0.3273915610043332, "termination": "VERIFIED_STORED_PRIOR", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 4.997712601994863, "phase": "initial", "support_error": -7.275957614183426e-12, "arcs": 1125000}
+{"event": "joint_witness", "wall": 9.630871136003407, "iteration": 1, "objective": 102220.27656178409, "open_count": 250}
+{"event": "checkpoint", "wall": 9.638636026007589, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 9.873568022012478, "phase": "joint_1", "support_error": 1.4551915228366852e-11, "arcs": 1125000}
+{"event": "joint_witness", "wall": 16.86227511501056, "iteration": 2, "objective": 101336.32387886889, "open_count": 250}
+{"event": "checkpoint", "wall": 16.873346353997476, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 17.11039819000871, "phase": "joint_2", "support_error": 1.4551915228366852e-11, "arcs": 1125000}
+{"event": "checkpoint", "wall": 17.142469578015152, "termination": "STOP_JOINT_GATE_EXCEPTION", "objective": 84489.46641112343}

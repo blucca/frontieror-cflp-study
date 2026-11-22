@@ -1,0 +1,27 @@
+--- recorded_controller.py
++++ replay_gate.py
+@@ -1,0 +2 @@
++import argparse
+@@ -11,3 +12,3 @@
+-ROOT = Path(__file__).resolve().parent
+-INPUT = Path('/data/workspace/temp/round722-cflp/input/large_instance_4.json')
+-PRIOR = Path('/data/workspace/temp/round723-cflp-polish/budgeted-cover/large4-hybrid-s1/solution.json')
++SOURCE = Path(__file__).resolve().parent
++ROOT = SOURCE
++INPUT = PRIOR = None
+@@ -26,0 +28,9 @@
++    global ROOT, INPUT, PRIOR
++    p = argparse.ArgumentParser(description=__doc__)
++    p.add_argument('--instance_path', required=True)
++    p.add_argument('--prior_path', required=True)
++    p.add_argument('--output_dir', required=True)
++    args = p.parse_args()
++    INPUT, PRIOR = Path(args.instance_path).resolve(), Path(args.prior_path).resolve()
++    ROOT = Path(args.output_dir).resolve()
++    ROOT.mkdir(parents=True, exist_ok=False)
+@@ -36 +46 @@
+-            proc = subprocess.run([sys.executable, '-B', str(ROOT / file)], env=env,
++            proc = subprocess.run([sys.executable, '-B', str(SOURCE / file)], env=env,
+@@ -45 +55 @@
+-    cmd = [sys.executable, '-B', str(ROOT / 'joint.py'), '--instance_path', str(INPUT),
++    cmd = [sys.executable, '-B', str(SOURCE / 'joint.py'), '--instance_path', str(INPUT),

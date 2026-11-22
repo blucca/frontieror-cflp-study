@@ -1,0 +1,40 @@
+{
+  "study": "bounded-demand-vub-20261122",
+  "date": "2026-11-22",
+  "gate": "FAILED_QUALITY_NO_IMPROVEMENT",
+  "cold_run": false,
+  "seed": 1,
+  "input": "../../source/input-hashes.json: large_instance_4.json",
+  "input_revision": "ef42a2eac13595453f986d9df0b62e86e75ab596",
+  "prior": "../../results/cover/large4-hybrid-s1/solution.json",
+  "measured_implementation": [
+    "joint.py",
+    "polish.py",
+    "common.py",
+    "feasibility_check.py",
+    "check_cut.py",
+    "check_master.py",
+    "recorded_controller.py"
+  ],
+  "measured_source_byte_equal_to_captured_run": true,
+  "portable_runner": {
+    "file": "replay_gate.py",
+    "changes": "CLI input/prior/output paths only",
+    "diff": "portable-path.diff"
+  },
+  "source_api_repair": {
+    "diff": "repair.diff",
+    "original": "results/first-api-failure/joint.py",
+    "reason": "successfully loaded HiGHS model returned kWarning for a 1.47e-14 coefficient"
+  },
+  "coefficient_analysis": {
+    "script": "analyze_lift.py",
+    "report": "results/lift-stats.json",
+    "arithmetic": "outward-rounded threshold and rational accumulation"
+  },
+  "executed_arithmetic": "binary floating point with source/knapsack/support tolerances",
+  "complete_results": "results/complete/state.json",
+  "original_source_failure": "results/first-api-failure/state.json",
+  "existing_controls": "../../README.md#cold-full-mip-controls",
+  "six_cold_extension": "stopped after failed cost-improvement gate"
+}

@@ -1,0 +1,19 @@
+--- original/joint.py
++++ repaired/joint.py
+@@ -134,9 +134,14 @@
+     for key, value in {"output_flag": False, "threads": 2, "random_seed": seed,
+                        "mip_feasibility_tolerance": 1e-9, "primal_feasibility_tolerance": 1e-9}.items():
+         assert h.setOptionValue(key, value) == highspy.HighsStatus.kOk
+-    assert h.passModel(lp) == highspy.HighsStatus.kOk
++    # A saved third cut contains 1.47e-14: HiGHS loads it with kWarning
++    # after its documented small-matrix filtering. This master only selects S;
++    # every returned S still needs complete recourse and both primal checkers.
++    model_load_status = h.passModel(lp)
++    assert model_load_status in (highspy.HighsStatus.kOk, highspy.HighsStatus.kWarning), str(model_load_status)
+     assert h.setSolution(m + 1, np.arange(m + 1, dtype=np.int32), warm) == highspy.HighsStatus.kOk
+-    metrics.update(cuts=k, binary_facilities=m, build_seconds=time.monotonic() - began,
++    metrics.update(cuts=k, binary_facilities=m, model_load_status=str(model_load_status),
++                   build_seconds=time.monotonic() - began,
+                    shipping_floor=shipping_floor, warm_objective=prior["objective_value"])
+     budget = deadline - time.monotonic()
+     if budget < .1:

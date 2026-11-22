@@ -1,0 +1,30 @@
+{
+  "cuts": 3,
+  "solver_scope": "saved_third_master_only",
+  "status": "EXCEPTION",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/workspace/temp/round735-cflp-demand-lift/diagnose_master.py\", line 30, in <module>\n    result['sites'] = joint.master(data, cuts, prior, time.monotonic() + 2, 1, metrics, pending)\n                      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/workspace/temp/round735-cflp-demand-lift/joint.py\", line 137, in master\n    assert h.passModel(lp) == highspy.HighsStatus.kOk\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "failed_line": 137,
+  "matrix": {
+    "cols": 751,
+    "rows": 5,
+    "starts": 752,
+    "indices": 3753,
+    "values": 3753
+  },
+  "warm_row_slack": [
+    7.275957614183426e-11,
+    249.0,
+    2.9103830456733704e-11,
+    9716.957331308658,
+    11154.865420811839
+  ],
+  "warm_shipping": 52787.46641112343,
+  "shipping_floor": 39146.7535,
+  "highs_model_status": "HighsModelStatus.kNotset",
+  "highs_version": "1.15.1",
+  "failed_api_replay_status": "HighsStatus.kWarning",
+  "explicit_zero_count": 3,
+  "positive_tiny_count": 1,
+  "loaded_matrix_nnz": 3749,
+  "master": {}
+}

@@ -1,0 +1,24 @@
+{"event": "checkpoint", "wall": 0.18045549900853075, "termination": "VERIFIED_STORED_PRIOR", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 3.3843882879882585, "phase": "initial", "support_error": -7.275957614183426e-12, "arcs": 1125000}
+{"event": "joint_witness", "wall": 7.501496362994658, "iteration": 1, "objective": 102220.27656178409, "open_count": 250}
+{"event": "checkpoint", "wall": 7.511666152015096, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 7.747049908008194, "phase": "joint_1", "support_error": 1.4551915228366852e-11, "arcs": 1125000}
+{"event": "joint_witness", "wall": 13.918342569988454, "iteration": 2, "objective": 101336.32387886889, "open_count": 250}
+{"event": "checkpoint", "wall": 13.928876790014328, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 14.160122005996527, "phase": "joint_2", "support_error": 1.4551915228366852e-11, "arcs": 1125000}
+{"event": "joint_witness", "wall": 17.971683579002274, "iteration": 3, "objective": 91413.1023485891, "open_count": 259}
+{"event": "checkpoint", "wall": 17.981470358005026, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 18.20143218501471, "phase": "joint_3", "support_error": 7.275957614183426e-12, "arcs": 1125000}
+{"event": "joint_witness", "wall": 21.74878713299404, "iteration": 4, "objective": 84906.9875838909, "open_count": 265}
+{"event": "checkpoint", "wall": 21.76487784201163, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 21.98665085900575, "phase": "joint_4", "support_error": 7.275957614183426e-12, "arcs": 1125000}
+{"event": "joint_witness", "wall": 25.36844885800383, "iteration": 5, "objective": 88809.79841228278, "open_count": 262}
+{"event": "checkpoint", "wall": 25.3839813870145, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 25.607961142988643, "phase": "joint_5", "support_error": 0.0, "arcs": 1125000}
+{"event": "joint_witness", "wall": 29.616221795004094, "iteration": 6, "objective": 92802.92884428936, "open_count": 258}
+{"event": "checkpoint", "wall": 29.63206128400634, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 29.86179113999242, "phase": "joint_6", "support_error": -1.4551915228366852e-11, "arcs": 1125000}
+{"event": "joint_witness", "wall": 33.61606518601184, "iteration": 7, "objective": 90444.60800966786, "open_count": 260}
+{"event": "checkpoint", "wall": 33.64364407400717, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 33.876185011002235, "phase": "joint_7", "support_error": -7.275957614183426e-12, "arcs": 1125000}
+{"event": "checkpoint", "wall": 33.90033072899678, "termination": "JOINT_GATE_COMPLETE", "objective": 84489.46641112343}
