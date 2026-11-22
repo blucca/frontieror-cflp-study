@@ -166,6 +166,30 @@ on three pending cases while extending their whole time to 53 seconds. Its
 small returned improvements on large3/large5 are available as the separate
 `terminal` replay mode.
 
+### Joint facility-master gate: stopped
+
+A separate **stored-prior large4** experiment accumulates full-facility transport
+dual cuts and uses a 750-binary-variable master to choose two joint replacements.
+Both fixed-set transport LPs return Optimal; both complete original witnesses
+pass the independent and upstream checkers. Their actual costs increase:
+
+| Decision | Fixed fee | Shipping | Actual total | Change from prior |
+|---|---:|---:|---:|---:|
+| retained fast prior | 31702 | 52787.46641 | 84489.46641 | — |
+| first joint set | 30324 | 69142.86294 | 99466.86294 | +17.73% |
+| second joint set | 31132 | 70090.70707 | 101222.70707 | +19.81% |
+
+Each set opens 250 sites, exchanging 77 / 86 of the prior sites. The valid cuts
+are tight at their generating sets but optimistic at the new sets: master
+incumbents 69470.75350 / 70279.05891 understate their actual costs by roughly
+30000 / 30944. Cheaper facilities lose much more in transport. This gate stops
+the joint-master route; the fast entry and all six cold results stay unchanged.
+
+The extra cut/master/warm/recourse path took 8.787 seconds; total worker process
+11.858 seconds, peak RSS 376.8 MiB. This is a conditional diagnostic, separate
+from the cold table. [Complete results and the first API failure](results/archive/joint-master-conditional/),
+[method, source, checks and bounded replay](versions/joint-master-conditional/).
+
 ## Cold full-MIP controls
 
 Both controls use every original shipping arc and all facilities, with no greedy

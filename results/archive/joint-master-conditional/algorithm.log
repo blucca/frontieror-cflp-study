@@ -1,0 +1,8 @@
+{"event": "checkpoint", "wall": 0.13487616198835894, "termination": "VERIFIED_STORED_PRIOR", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 2.9695432129956316, "phase": "initial", "support_error": -7.275957614183426e-12, "arcs": 1125000}
+{"event": "joint_witness", "wall": 8.376808720000554, "iteration": 1, "objective": 99466.86294274742, "open_count": 250}
+{"event": "checkpoint", "wall": 8.382124919997295, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 8.408186298998771, "phase": "joint_1", "support_error": 4.3655745685100555e-11, "arcs": 1125000}
+{"event": "joint_witness", "wall": 11.718746400991222, "iteration": 2, "objective": 101222.70707120554, "open_count": 250}
+{"event": "checkpoint", "wall": 11.725532251002733, "termination": "RETURNED_JOINT_CHECKPOINT", "objective": 84489.46641112343}
+{"event": "checkpoint", "wall": 11.732140729989624, "termination": "JOINT_GATE_COMPLETE", "objective": 84489.46641112343}

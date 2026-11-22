@@ -1,0 +1,3 @@
+{"event": "checkpoint", "wall": 0.2961749029927887, "termination": "VERIFIED_STORED_PRIOR", "objective": 84489.46641112343}
+{"event": "cut_verified", "wall": 3.3624240799981635, "phase": "initial", "support_error": -7.275957614183426e-12, "arcs": 1125000}
+{"event": "checkpoint", "wall": 3.3913920180057175, "termination": "STOP_JOINT_GATE_EXCEPTION", "objective": 84489.46641112343}

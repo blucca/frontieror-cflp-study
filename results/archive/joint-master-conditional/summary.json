@@ -1,0 +1,29 @@
+{
+  "scope": "stored-prior large4 conditional gate; no cold performance or full-CFLP bound claimed",
+  "decision": "STOP",
+  "prior_cost": 84489.46641112343,
+  "final_cost": 84489.46641112343,
+  "joint_costs": [
+    99466.86294274742,
+    101222.70707120554
+  ],
+  "joint_cost_increases_pct": [
+    17.72693942549523,
+    19.80512053261009
+  ],
+  "extra_seconds": 8.786651197005995,
+  "algorithm_whole_seconds": 11.857823272992391,
+  "peak_rss_mib": 376.83203125,
+  "all_original_arc_checks_per_cut": [
+    1125000,
+    1125000
+  ],
+  "positive_support_errors": [
+    -7.275957614183426e-12,
+    4.3655745685100555e-11
+  ],
+  "original_double_checks": "PASS for both candidate witnesses and retained prior",
+  "first_failure": "HighsLp.row_lower_ exposed a Python list; master warm check attempted list-float. Corrected with np.asarray; original result retained.",
+  "additional_cold_runs": 0,
+  "default_source_changed": false
+}
