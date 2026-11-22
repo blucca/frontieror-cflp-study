@@ -190,6 +190,15 @@ The extra cut/master/warm/recourse path took 8.787 seconds; total worker process
 from the cold table. [Complete results and the first API failure](results/archive/joint-master-conditional/),
 [method, source, checks and bounded replay](versions/joint-master-conditional/).
 
+### Dual-face/core-point follow-up: stopped before native execution
+
+The retained large4 transport support is one connected 1,750-vertex,
+1,749-positive-edge tree. Its exact optimal dual face has a common-shift
+parameter, and the existing all-arc cut already maximizes the strict fractional
+core objective along that face. A complete read-only input audit checks all
+1,125,000 arcs and the stored witness; new Pareto LP/master/recourse runs are zero.
+[Argument, numerical scope and runnable audit](research/dual-face-rigidity/).
+
 ## Cold full-MIP controls
 
 Both controls use every original shipping arc and all facilities, with no greedy

@@ -1,0 +1,89 @@
+{
+  "status": "PASS_COMPLETE_INPUT_NUMERICAL_AUDIT",
+  "scope": "Complete pinned-input numerical audit of the stored initial large4 fixed-S point; the exact-face theorem uses the original Optimal/primal-dual records with the reported residuals",
+  "primal_support": {
+    "customers": 1500,
+    "open_facilities": 250,
+    "nodes": 1750,
+    "strictly_positive_edges": 1749,
+    "components": 1,
+    "component_sizes": [
+      1750
+    ],
+    "is_spanning_tree": true,
+    "min_positive_fraction": 0.000571428571426563,
+    "min_positive_flow_lower_bound_from_recorded_demand_min": 0.002857142857132815,
+    "positive_fractions_below_1e_8": 0,
+    "row_fraction_max_error": 0.0
+  },
+  "original_numerical_receipts": {
+    "native_status": "HighsModelStatus.kOptimal",
+    "positive_shipping": 52787.46641112343,
+    "positive_support_error": -7.275957614183426e-12,
+    "all_arc_count": 1125000,
+    "all_arc_max_violation": 7.771561172376096e-16,
+    "max_capacity_excess": 1.5063505998114124e-12
+  },
+  "dual_face": {
+    "min_open_mu": 0.0,
+    "zero_open_mu_facilities": [
+      610
+    ],
+    "min_closed_mu": 0.2185547794117646,
+    "closed_mu_strictly_positive": true,
+    "all_closed_mu_minimal": "By stored joint.make_cut all-arc maximum construction; independently recomputed when --instance supplied",
+    "uniform_capacity_exact_decimal": "119.716",
+    "demand_exact_decimal": "29929",
+    "capacity_s_exact_decimal": "29929",
+    "D_minus_capacityS_exact": "0",
+    "total_capacity_exact_decimal": "89787",
+    "recorded_numpy_total_capacity": 89786.99999999997,
+    "core_lambda_exact": "2/3",
+    "core_capacity_exact": "59858",
+    "D_minus_core_capacity_exact": "-29929",
+    "exact_optimal_face": "alpha'=alpha+t, mu'_S=mu_S+t; t>=0; minimal closed mu'=mu_closed+t",
+    "core_objective_delta": "t*(D-sum_j s_j*yCore_j) = -29929*t",
+    "unique_core_maximum_t": 0,
+    "conclusion": "The stored initial cut already maximizes this strict-core objective on the exact optimal dual face"
+  },
+  "near_optimal_boundary": {
+    "planned_735_face_tolerance": 5.278746641112343e-06,
+    "pure_negative_common_shift": "For -min_positive_mu<t<0, only open facility610 clips: gS(t)-Q=s610*t",
+    "max_negative_common_shift_magnitude": 4.4093910931808136e-08,
+    "max_core_gain_pure_common_shift": 0.0013161674958506776,
+    "arbitrary_near_face": "May be non-translational: sum_positive_edges(q*r)<=tol in exact arithmetic; exact-face translation certificate applies when residual budget=0",
+    "scope": "No claim that all near-face points are common shifts or that other S share this tree"
+  },
+  "independent_existing_input_readback": {
+    "input_sha256": "2b632eef0938468716382ca6e54ecb4b8ade4e57999ff49b6a51209844165e33",
+    "strictly_positive_flow_min": 0.011999999999957822,
+    "positive_arc_dual_equality_max_abs_error": 1.7763568394002505e-15,
+    "positive_arc_reduced_cost_min_max": [
+      0.0,
+      1.7763568394002505e-15
+    ],
+    "positive_arc_weighted_complementarity_error": 8.541014118179646e-12,
+    "all_arc_max_violation": 0.0,
+    "closed_mu_closure_max_abs_error": 0.0,
+    "demand_flow_max_error": 0.0,
+    "capacity_slack_min_max_on_S": [
+      -1.5063505998114124e-12,
+      0.0
+    ],
+    "shipping_recomputed": 52787.46641112342,
+    "shipping_recompute_error": -7.275957614183426e-12,
+    "whole_objective_recompute_error": 0.0,
+    "single_edge_near_face_reduced_cost_bound_using_min_flow": 0.00043989555342757475,
+    "native_solver_runs": 0
+  },
+  "certificate_resources": {
+    "scope": "JSON/source arithmetic only",
+    "cpu_affinity_count": 2,
+    "address_space_limit_bytes": 1073741824,
+    "cpu_limit_seconds": 60,
+    "wall_limit_seconds": 180,
+    "wall_seconds": 1.171053199999733,
+    "cpu_seconds": 1.11579,
+    "peak_rss_kib": 81644
+  }
+}
